@@ -11,7 +11,7 @@ body {
 
 .title {
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .container h1 {
@@ -26,7 +26,6 @@ body {
 
 .stuff {
     text-align: center;
-    margin-bottom: 1rem;
 }
 
 .stuff a {
@@ -39,6 +38,8 @@ body {
     border: 1px solid black;
 
     text-decoration: none;
+
+    margin-top: 1rem;
 }
 
 .stuff .not_ready {
