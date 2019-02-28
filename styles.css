@@ -3,8 +3,10 @@ body {
     align-items: center;
     justify-content: center;
 
-    margin: 0;
     height: 100vh;
+    margin: 0;
+
+    font-family: "DejaVu Sans Mono", monospace;
 }
 
 .title {
@@ -44,8 +46,9 @@ body {
 }
 
 .footer {
-    position: fixed;
+    position: absolute;
     bottom: 0.5rem;
 
     font-size: 0.75rem;
+    text-align: center;
 }
