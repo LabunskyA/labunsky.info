@@ -15,20 +15,39 @@ body {
 }
 
 .container {
-    max-height: calc(100% - 2.5rem);
-    overflow: auto;
+    max-height: calc(100% - 2rem);
+    margin-bottom: 1rem;
 
+    overflow: auto;
     max-width: 85%;
 }
 
-.container h1 {
+.article {
+    text-align: justify;
+    text-justify: inter-word;
+
+    line-height: 150%;
+}
+
+.article p {
+    padding-right: 1rem;
+}
+
+.title h1 {
     margin: 0;
     font-size: 2.5rem;
 }
 
-.container h2 {
+.title h2 {
     margin: 0;
     font-size: 1.125rem;
+}
+
+/* Taken from the GitHub stylesheets */
+.container code {
+    background-color: rgba(27,31,35,.05);
+    border-radius: 3px;
+    padding: .2rem .4rem;
 }
 
 .stuff {
@@ -55,7 +74,7 @@ body {
 
 .footer {
     position: fixed;
-    bottom: 0.5rem;
+    bottom: 0.25rem;
 
     font-size: 0.75rem;
     text-align: center;
