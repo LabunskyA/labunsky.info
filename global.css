@@ -23,14 +23,14 @@ body {
 }
 
 .article {
-    text-align: justify;
-    text-justify: inter-word;
-
     line-height: 150%;
 }
 
 .article p {
     padding-right: 1rem;
+
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .title h1 {
