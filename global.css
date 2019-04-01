@@ -9,67 +9,14 @@ body {
     font-family: "DejaVu Sans Mono", monospace;
 }
 
-.title {
-    text-align: center;
-    margin-bottom: 0.5rem;
-}
-
 .container {
     max-height: calc(100% - 2rem);
     margin-bottom: 1rem;
 
     overflow: auto;
     max-width: 85%;
-}
 
-.article {
     line-height: 150%;
-}
-
-.article p {
-    padding-right: 1rem;
-
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.title h1 {
-    margin: 0;
-    font-size: 2.5rem;
-}
-
-.title h2 {
-    margin: 0;
-    font-size: 1.125rem;
-}
-
-/* Taken from the GitHub stylesheets */
-.container code {
-    background-color: rgba(27,31,35,.05);
-    border-radius: 3px;
-    padding: .2rem .4rem;
-}
-
-.stuff {
-    text-align: center;
-}
-
-.stuff a {
-    display: inline-block;
-
-    font-size: 1.25em;
-    color: inherit;
-
-    padding: 0.875rem;
-    border: 1px solid black;
-
-    text-decoration: none;
-
-    margin-top: 1rem;
-}
-
-.stuff .not_ready {
-    border: 1px dashed black;
 }
 
 .footer {
