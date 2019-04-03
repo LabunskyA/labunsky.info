@@ -1,5 +1,5 @@
 **Labunsky Artem** <me@labunsky.info>
-- **Education**: Information Security Specialist (diploma, 5.5 YoE == [ISCED level 7](http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf)), Saratov State University, Russia
+- **Education**: Information Security Specialist (diploma after 5.5 years, [ISCED level 7](http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf)), Saratov State University, Russia
 - **Fields of research**
   - steganography methods and applications (and very unusual ones)
   - extensive data protection techniques
@@ -11,14 +11,15 @@
   - knowledge of computer architecture base principles and mechanisms
   - can use statistical methods in a research
   - **I worked with**
-    - libwebsockets
-    - Node.js and Ducktape (incomparable things, but both JS-related)
-    - JNI and Node.js bindings 
-    - Boehm and other GCs
-    - different sql (microsoft, mysql) and no-sql (whitedb, redis) databases
-    - multi-threading in different models and concurrency in general 
+    - [libwebsockets](https://github.com/warmcat/libwebsockets)
+    - [Node.js](https://nodejs.org/) and [Ducktape](https://duktape.org) (incomparable things, but both JS-related)
+    - [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) and [N-API](https://nodejs.org/api/n-api.html)
+    - [Boehm](https://www.hboehm.info/gc/) and other GCs
+    - different sql (microsoft, mysql) and no-sql ([whitedb](http://whitedb.org), [redis](https://redis.io)) databases
+    - multi-threading in different models and concurrency in general
     - crypto-currencies (smart contracts in particular)
     - UI stuff like html and css, Java Swing and Android layouts
+    - many other things I just did not remember at the time
   - not really a programming skill, but I used to create trading strategies
 - **Other qualities**
   - stress resistant
