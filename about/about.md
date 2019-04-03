@@ -5,7 +5,7 @@ I am a XY years old man living in a Russian province so, before anyone asks, I d
 Do not smoke and do not care about others smoking. 
 But do occasionally drink a little alcohol myself. 
 
-Graduated from Saratov State University after 5.5 years of education as an [ISCED level 7](http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf)) Information Security Specialist.
+Graduated from Saratov State University after 5.5 years of education as an [ISCED level 7](http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf) Information Security Specialist.
 My fields of research are mostly somewhere around steganography and applications, excessive data protection techniques, decentralized protocols, and effective programming.
 
 I can read, speak and code freely in C, Java, and JavaScript (both client and server sides).
