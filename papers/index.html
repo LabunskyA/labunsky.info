@@ -7,59 +7,62 @@
     <meta name="viewport" content="width=device-width">
 
     <link rel="shortcut icon" href="/favicon.png">
+    <style id="global">
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 100vh;
+            margin: 0;
+
+            font-family: "DejaVu Sans Mono", monospace;
+        }
+
+        .container {
+            max-height: calc(100% - 2rem);
+            margin-bottom: 1rem;
+
+            overflow: auto;
+            max-width: 85%;
+
+            line-height: 150%;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0.25rem;
+
+            font-size: 0.75rem;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-<style id="global">
-    body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        height: 100vh;
-        margin: 0;
-
-        font-family: "DejaVu Sans Mono", monospace;
-    }
-
-    .container {
-        max-height: calc(100% - 2rem);
-        margin-bottom: 1rem;
-
-        overflow: auto;
-        max-width: 85%;
-
-        line-height: 150%;
-    }
-
-    .footer {
-        position: fixed;
-        bottom: 0.25rem;
-
-        font-size: 0.75rem;
-        text-align: center;
-    }
-</style>
-
 <div class="container">
     <p>Here you can find my published stuff (work on the list is in progress):</p>
-
     <ul>
-        <li>introduction into the data compression using steganoraphy
+        <li>introduction into the data compression using stegangraphy
             <ul>
-                <li>en: <a href="stego_compression">html</a>,<a href="stego_compression/introduction%20into%20the%20compression%20using%20steganography.md">markdown</a></li>
-            </ul>
-        </li>
+                <li>en: <a href="stego_compression/">html</a>, <a href="stego_compression/introduction%20into%20the%20compression%20using%20steganography.md">markdown</a></li>
+            </ul></li>
         <li>data compression in JPEG files using F5 steganography algorithm
             <ul>
                 <li>work in progress</li>
-            </ul>
-        </li>
+            </ul></li>
+        <li>asymmetric user authentication using stegangraphy
+            <ul>
+                <li>work in progress</li>
+            </ul></li>
         <li>covert channel over the user blocking
             <ul>
-                <li>ru: <a href="https://habr.com/ru/post/451954/">habrahabr</a></li>
-            </ul>
-        </li>
+                <li>ru: <a href="https://habr.com/ru/post/451954">habrahabr</a></li>
+            </ul></li>
+        <li>steganographic proxy
+            <ul>
+                <li>ru <a href="https://habr.com/ru/post/319148/">habrahabr</a></li>
+            </ul></li>
     </ul>
 </div>
 
