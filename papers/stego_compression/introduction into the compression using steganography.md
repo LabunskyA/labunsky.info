@@ -1,4 +1,4 @@
-# On data compression using steganography
+# Introduction into the data compression using steganography
 This brief paper introduces a new class of compression techniques.
 
 ## The amount of information
