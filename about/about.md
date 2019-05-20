@@ -8,7 +8,7 @@ But do occasionally drink a little alcohol myself.
 Graduated from Saratov State University after 5.5 years of education as an [ISCED level 7](http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf) Information Security Specialist.
 My fields of research are mostly somewhere around steganography and applications, excessive data protection techniques, decentralized protocols, and effective programming.
 
-I can read, speak and code freely in C, Java, and JavaScript (both client and server sides).
+I can read, speak and code freely in C, Java, JavaScript (both client and server sides) and Python.
 Can understand and use some other languages, like Assembly, C++, Python, Go, Bash and more high-level languages with reference and a bit of practice.
 Do believe in my knowledge on complex algorithms and data structures (can remove an element from a B-tree after waking up in the middle of a night).
 Other programming skills include but not limited to: working with crypto-currencies, with databases using little or no-SQL, writing effective multi-threaded applications and a passion to optimize code no one cared about.
