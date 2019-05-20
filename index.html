@@ -7,7 +7,7 @@
     <meta name="description" content="Home page of Labunsky Artem.&ensp;Creating stuff no one thought should exist in the first place.">
     <meta name="viewport" content="width=device-width">
 
-    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="shortcut icon" href="img/favicon.png">
     <style id="global">
         body {
             display: flex;
@@ -40,7 +40,27 @@
     </style>
     <style id="local">
         .container {
+            margin-top: -12rem;
+            text-align: center;
             line-height: initial;
+        }
+
+        .container img {
+            max-width: 16rem;
+            border-radius: 15%;
+            margin-bottom: 0.5rem;
+        }
+
+        @media screen and (max-height: 40rem) {
+            .container img {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 40rem) {
+            .container {
+                margin-top: 0;
+            }
         }
 
         .title {
@@ -84,8 +104,9 @@
 
 <body>
     <div class="container">
+        <img src="img/exp_port.jpg" alt="It's me"/>
         <div class="title">
-            <h1>Labunsky's home page</h1>
+            <h1>Labunsky's web page</h1>
             <h2>...work in progress...</h2>
         </div>
 

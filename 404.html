@@ -6,8 +6,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 
-    <link rel="shortcut icon" href="favicon.png">
-    <link rel="stylesheet" href="global.css">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <style id="global">
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 100vh;
+            margin: 0;
+
+            font-family: "DejaVu Sans Mono", monospace;
+        }
+
+        .container {
+            max-height: calc(100% - 2rem);
+            margin-bottom: 1rem;
+
+            overflow: auto;
+            max-width: 85%;
+
+            line-height: 150%;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0.25rem;
+
+            font-size: 0.75rem;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
