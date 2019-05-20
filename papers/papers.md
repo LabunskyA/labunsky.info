@@ -7,5 +7,6 @@ Here you can find my published stuff (work on the list is in progress):
   - work in progress
 - covert channel over the user blocking
   - ru: [habrahabr](https://habr.com/ru/post/451954)
+  - en: [medium](https://medium.com/@labunskya/secret-telegrams-bdd2035b6e84)
 - steganographic proxy
-  - ru [habrahabr](https://habr.com/ru/post/319148/)
+  - ru: [habrahabr](https://habr.com/ru/post/319148/)
