@@ -3,19 +3,19 @@
 - **Fields of research**
   - steganography methods and applications (and very unusual ones)
   - extensive data protection techniques
-  - decentralized protocols and networks
+  - decentralized networks and protocols
 - **Programming-related skills**
-  - right away will code in C, Java, JavaScript, Python (knew more but ain't sure in skill due to infrequent usage)
+  - right away will code in C, Java, JavaScript, Python (knew more but ain't sure in skill due to an infrequent usage)
   - have a good understanding of the most language-specific tech so can learn new ones in a short time
   - able to use existing and create custom effective algorithms and data structures
   - knowledge of computer architecture base principles and mechanisms
   - can use statistical methods in a research
   - **I worked with**
-    - [libwebsockets](https://github.com/warmcat/libwebsockets)
-    - [Node.js](https://nodejs.org/) and [Ducktape](https://duktape.org) (incomparable things, but both JS-related)
+    - frameworks like [libwebsockets](https://github.com/warmcat/libwebsockets)
+    - [Node.js](https://nodejs.org/), [Ducktape](https://duktape.org) and [PhantomJS](http://phantomjs.org) (incomparable things, but all JS-related)
     - [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) and [N-API](https://nodejs.org/api/n-api.html)
     - [Boehm](https://www.hboehm.info/gc/) and other GCs
-    - different sql (microsoft, mysql) and no-sql ([whitedb](http://whitedb.org), [redis](https://redis.io)) databases
+    - different sql (microsoft, mysql) and nosql ([whitedb](http://whitedb.org), [redis](https://redis.io)) databases
     - multi-threading in different models and concurrency in general
     - crypto-currencies (smart contracts in particular)
     - UI stuff like html and css, Java Swing and Android layouts
