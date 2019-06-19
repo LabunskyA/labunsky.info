@@ -5,7 +5,7 @@ Here you can find my published posts (work on the list is in progress):
   - ru: [habrahabr](https://habr.com/ru/post/453332/)
   - en: [medium](https://medium.com/@labunskya/about-a-strange-data-compression-method-4d0d9d2e5714)
 - asymmetric user authentication using stegangraphy
-  - work in progress
+  - ru: [habrahabr](https://habr.com/ru/post/456670/)
 - covert channel over the user blocking
   - ru: [habrahabr](https://habr.com/ru/post/451954)
   - en: [medium](https://medium.com/@labunskya/secret-telegrams-bdd2035b6e84), [habr](https://habr.com/ru/post/452434/)
