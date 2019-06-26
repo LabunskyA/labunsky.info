@@ -1,5 +1,5 @@
 .=
-./software=софтваре
+./software=софт
 ./papers=тексты
 ./other=прочее
 ./about=обо мне

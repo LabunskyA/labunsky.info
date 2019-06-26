@@ -16,7 +16,7 @@ with open(RULES, "r") as rules:
 
         TXT.append((token[0], token[1]))
 
-for root, dirs, files in os.walk("."):
+for root, dirs, files in os.walk("./"):
     for filename in files:
         if IN_EXT not in filename:
             continue
@@ -33,7 +33,8 @@ for root, dirs, files in os.walk("."):
                     continue
                 replaced, changed = True, True
 
-                replacement = subprocess.check_output(token[1].format(root, filename.replace(IN_EXT, "")), shell=True)
+                cmd = token[1].format(root, filename.replace(IN_EXT, ""))
+                replacement = subprocess.check_output(cmd, shell=True)
                 result = result.replace(token[0], replacement.decode("UTF-8"))
 
             if not replaced:
