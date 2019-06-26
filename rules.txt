@@ -1,0 +1,21 @@
+${META}
+cat dev/meta.html
+
+${STYLES}
+cat global.css
+
+${STYLES_LOCAL}
+cat {:s}/local.css
+
+${LANG_SWITCHER}
+cat dev/lang_switcher.html
+
+${MIRROR}
+grep -w -Po '{:s}=\K[^\n]*' < mirrors.txt
+
+${FOOTER}
+cat dev/footer.html
+
+# Actual document content
+${MD_CONTENT}
+pandoc --from gfm --to html {:s}/{:s}.md

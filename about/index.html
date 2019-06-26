@@ -4,59 +4,66 @@
     <title>About</title>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+<meta name="description" content="Home page of Labunsky Artem.&ensp;Creating stuff no one thought should exist in the first place.">
+<meta name="viewport" content="width=device-width">
 
-    <link rel="shortcut icon" href="/img/favicon.png">
-    <style id="global">
+<link rel="shortcut icon" href="/img/favicon.png">
+    <style>
         body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-            height: 100vh;
-            margin: 0;
+    height: 100vh;
+    margin: 0;
 
-            font-family: "DejaVu Sans Mono", monospace;
-        }
+    font-family: "DejaVu Sans Mono", monospace;
+}
 
+.container {
+    max-height: calc(100% - 2rem);
+    margin-bottom: 1rem;
+
+    overflow: auto;
+    max-width: 85%;
+
+    line-height: 150%;
+}
+
+.lang_switcher {
+    position: fixed;
+    top: 0.25rem;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0.25rem;
+}
+
+.footer .lang_switcher {
+    font-size: 0.75rem;
+    text-align: center;
+}
         .container {
-            max-height: calc(100% - 2rem);
-            margin-bottom: 1rem;
-
-            overflow: auto;
-            max-width: 85%;
-
-            line-height: 150%;
-        }
-
-        .footer {
-            position: fixed;
-            bottom: 0.25rem;
-
-            font-size: 0.75rem;
-            text-align: center;
-        }
+    text-align: justify;
+}
     </style>
-    <style id="local">
-        .container {
-            text-align: justify;
-        }
-    </style>
-
 </head>
 
 <body>
+<div class="lang_switcher">EN/<a href="https://лабунский.рф/обо мне
+">RU</a></div>
+
 <div class="container">
     <p>This is more an informal about page. If you are looking for something more structured and CV-like, you need to look <a href="cv">there</a>. No, really, I will be glad to be hired.</p>
-    <p>My name is Labunsky Artem. I am a XY years old man living in a Russian province so, before anyone asks, I do enjoy reading Marx and dreaming about the world communistic revolution. Do not smoke and do not care about others smoking. But do occasionally drink a little alcohol myself.</p>
-    <p>Graduated from Saratov State University after 5.5 years of education as an <a href="http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf">ISCED level 7</a> Information Security Specialist. My fields of research are mostly somewhere around steganography and applications, excessive data protection techniques, decentralized protocols, and effective programming.</p>
-    <p>I can read, speak and code freely in C, Java, JavaScript (both client and server sides) and Python. Can understand and use some other languages, like Assembly, C++, Python, Go, Bash and more high-level languages with reference and a bit of practice. Do believe in my knowledge on complex algorithms and data structures (can remove an element from a B-tree after waking up in the middle of a night). Other programming skills include but not limited to: working with crypto-currencies, with databases using little or no-SQL, writing effective multi-threaded applications and a passion to optimize code no one cared about.</p>
-    <p>Made incredible percentages on crypto-currencies (liked them before the hype) and lost most of the profit trading stocks (you don't want to buy KHC at $80+ now, do you?), futures and options. Pros: now I can resist pretty much any levels of stress and know how the financial world is working with all that fancy economics.</p>
-    <p>Enjoy roller skating, running and other physical activities as much as solving hard problems. Do not really care about money, status, fashion and other social leveling stuff.</p>
+<p>My name is Labunsky Artem. I am a XY years old man living in a Russian province so, before anyone asks, I do enjoy reading Marx and dreaming about the world communistic revolution. Do not smoke and do not care about others smoking. But do occasionally drink a little alcohol myself.</p>
+<p>Graduated from Saratov State University after 5.5 years of education as an <a href="http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf">ISCED level 7</a> Information Security Specialist. My fields of research are mostly somewhere around steganography and applications, excessive data protection techniques, decentralized protocols, and effective programming.</p>
+<p>I can read, speak and code freely in C, Java, JavaScript (both client and server sides) and Python. Can understand and use some other languages, like Assembly, C++, Python, Go, Bash and more high-level languages with reference and a bit of practice. Do believe in my knowledge on complex algorithms and data structures (can remove an element from a B-tree after waking up in the middle of a night). Other programming skills include but not limited to: working with crypto-currencies, with databases using little or no-SQL, writing effective multi-threaded applications and a passion to optimize code no one cared about.</p>
+<p>Made incredible percentages on crypto-currencies (liked them before the hype) and lost most of the profit trading stocks (you don't want to buy KHC at $80+ now, do you?), futures and options. Pros: now I can resist pretty much any levels of stress and know how the financial world is working with all that fancy economics.</p>
+<p>Enjoy roller skating, running and other physical activities as much as solving hard problems. Do not really care about money, status, fashion and other social leveling stuff.</p>
+
 </div>
 
-<div class="footer">
-    made from scratch by me
-</div>
+<div class="footer">made from scratch by me</div>
 </body>
 </html>

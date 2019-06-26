@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    margin: 0;
+
+    font-family: "DejaVu Sans Mono", monospace;
+}
+
+.container {
+    max-height: calc(100% - 2rem);
+    margin-bottom: 1rem;
+
+    overflow: auto;
+    max-width: 85%;
+
+    line-height: 150%;
+}
+
+.lang_switcher {
+    position: fixed;
+    top: 0.25rem;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0.25rem;
+}
+
+.footer .lang_switcher {
+    font-size: 0.75rem;
+    text-align: center;
+}

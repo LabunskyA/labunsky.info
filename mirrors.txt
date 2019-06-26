@@ -1,0 +1,7 @@
+.=
+./software=софтваре
+./papers=тексты
+./other=прочее
+./about=обо мне
+./about/cv=обо мне/резюме
+./contacts=контакты

@@ -4,72 +4,82 @@
     <title>Papers</title>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+<meta name="description" content="Home page of Labunsky Artem.&ensp;Creating stuff no one thought should exist in the first place.">
+<meta name="viewport" content="width=device-width">
 
-    <link rel="shortcut icon" href="/img/favicon.png">
-    <style id="global">
+<link rel="shortcut icon" href="/img/favicon.png">
+    <style>
         body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-            height: 100vh;
-            margin: 0;
+    height: 100vh;
+    margin: 0;
 
-            font-family: "DejaVu Sans Mono", monospace;
-        }
+    font-family: "DejaVu Sans Mono", monospace;
+}
 
-        .container {
-            max-height: calc(100% - 2rem);
-            margin-bottom: 1rem;
+.container {
+    max-height: calc(100% - 2rem);
+    margin-bottom: 1rem;
 
-            overflow: auto;
-            max-width: 85%;
+    overflow: auto;
+    max-width: 85%;
 
-            line-height: 150%;
-        }
+    line-height: 150%;
+}
 
-        .footer {
-            position: fixed;
-            bottom: 0.25rem;
+.lang_switcher {
+    position: fixed;
+    top: 0.25rem;
+}
 
-            font-size: 0.75rem;
-            text-align: center;
-        }
+.footer {
+    position: fixed;
+    bottom: 0.25rem;
+}
+
+.footer .lang_switcher {
+    font-size: 0.75rem;
+    text-align: center;
+}
     </style>
 </head>
 
 <body>
+<div class="lang_switcher">EN/<a href="https://лабунский.рф/тексты
+">RU</a></div>
+
 <div class="container">
     <p>Here you can find my published posts (work on the list is in progress):</p>
-    <ul>
-        <li>introduction into the data compression using stegangraphy
-            <ul>
-                <li>en: <a href="stego_compression">html</a>, <a href="stego_compression/introduction%20into%20the%20compression%20using%20steganography.md">markdown</a></li>
-            </ul></li>
-        <li>data compression in JPEG files using F5 steganography algorithm
-            <ul>
-                <li>ru: <a href="https://habr.com/ru/post/453332/">habrahabr</a></li>
-                <li>en: <a href="https://medium.com/@labunskya/about-a-strange-data-compression-method-4d0d9d2e5714">medium</a></li>
-            </ul></li>
-        <li>asymmetric user authentication using stegangraphy
-            <ul>
-                <li>ru: <a href="https://habr.com/ru/post/456670/">habrahabr</a></li>
-            </ul></li>
-        <li>covert channel over the user blocking
-            <ul>
-                <li>ru: <a href="https://habr.com/ru/post/451954">habrahabr</a></li>
-                <li>en: <a href="https://medium.com/@labunskya/secret-telegrams-bdd2035b6e84">medium</a>, <a href="https://habr.com/ru/post/452434/">habr</a></li>
-            </ul></li>
-        <li>steganographic proxy
-            <ul>
-                <li>ru: <a href="https://habr.com/ru/post/319148/">habrahabr</a></li>
-            </ul></li>
-    </ul>
+<ul>
+<li>introduction into the data compression using stegangraphy
+<ul>
+<li>en: <a href="stego_compression">html</a>, <a href="stego_compression/index.md">markdown</a></li>
+</ul></li>
+<li>data compression in JPEG files using F5 steganography algorithm
+<ul>
+<li>ru: <a href="https://habr.com/ru/post/453332/">habrahabr</a></li>
+<li>en: <a href="https://medium.com/@labunskya/about-a-strange-data-compression-method-4d0d9d2e5714">medium</a></li>
+</ul></li>
+<li>asymmetric user authentication using stegangraphy
+<ul>
+<li>ru: <a href="https://habr.com/ru/post/456670/">habrahabr</a></li>
+</ul></li>
+<li>covert channel over the user blocking
+<ul>
+<li>ru: <a href="https://habr.com/ru/post/451954">habrahabr</a></li>
+<li>en: <a href="https://medium.com/@labunskya/secret-telegrams-bdd2035b6e84">medium</a>, <a href="https://habr.com/ru/post/452434/">habr</a></li>
+</ul></li>
+<li>steganographic proxy
+<ul>
+<li>ru: <a href="https://habr.com/ru/post/319148/">habrahabr</a></li>
+</ul></li>
+</ul>
+
 </div>
 
-<div class="footer">
-    made from scratch by Labunsky Artem
-</div>
+<div class="footer">made from scratch by me</div>
 </body>
 </html>

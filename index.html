@@ -2,122 +2,128 @@
 <html lang="en">
 <head>
     <title>Labunsky's</title>
+<meta charset="UTF-8">
+<meta name="description" content="Home page of Labunsky Artem.&ensp;Creating stuff no one thought should exist in the first place.">
+<meta name="viewport" content="width=device-width">
 
-    <meta charset="UTF-8">
-    <meta name="description" content="Home page of Labunsky Artem.&ensp;Creating stuff no one thought should exist in the first place.">
-    <meta name="viewport" content="width=device-width">
+<link rel="shortcut icon" href="/img/favicon.png">
+    <style>
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    <link rel="shortcut icon" href="img/favicon.png">
-    <style id="global">
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+    height: 100vh;
+    margin: 0;
 
-            height: 100vh;
-            margin: 0;
+    font-family: "DejaVu Sans Mono", monospace;
+}
 
-            font-family: "DejaVu Sans Mono", monospace;
-        }
+.container {
+    max-height: calc(100% - 2rem);
+    margin-bottom: 1rem;
 
-        .container {
-            max-height: calc(100% - 2rem);
-            margin-bottom: 1rem;
+    overflow: auto;
+    max-width: 85%;
 
-            overflow: auto;
-            max-width: 85%;
+    line-height: 150%;
+}
 
-            line-height: 150%;
-        }
+.lang_switcher {
+    position: fixed;
+    top: 0.25rem;
+}
 
-        .footer {
-            position: fixed;
-            bottom: 0.25rem;
+.footer {
+    position: fixed;
+    bottom: 0.25rem;
+}
 
-            font-size: 0.75rem;
-            text-align: center;
-        }
-    </style>
-    <style id="local">
-        .container {
-            margin-top: -12rem;
-            text-align: center;
-            line-height: initial;
-        }
+.footer .lang_switcher {
+    font-size: 0.75rem;
+    text-align: center;
+}
+.container {
+    margin-top: -12rem;
+    text-align: center;
+    line-height: initial;
+}
 
-        .container img {
-            max-width: 16rem;
-            border-radius: 15%;
-            margin-bottom: 0.5rem;
-        }
+.container img {
+    max-width: 16rem;
+    border-radius: 15%;
+    margin-bottom: 0.5rem;
+}
 
-        @media screen and (max-height: 40rem) {
-            .container img {
-                display: none;
-            }
-        }
+@media screen and (max-height: 40rem) {
+    .container img {
+        display: none;
+    }
+}
 
-        @media screen and (max-height: 50rem) {
-            .container {
-                margin-top: 0;
-            }
-        }
+@media screen and (max-height: 50rem) {
+    .container {
+        margin-top: 0;
+    }
+}
 
-        .title {
-            text-align: center;
-            margin-bottom: 0.5rem;
-        }
+.title {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
 
-        .title h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
+.title h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
 
-        .title h2 {
-            margin: 0;
-            font-size: 1.125rem;
-        }
+.title h2 {
+    margin: 0;
+    font-size: 1.125rem;
+}
 
-        .stuff {
-            text-align: center;
-        }
+.stuff {
+    text-align: center;
+}
 
-        .stuff a {
-            display: inline-block;
+.stuff a {
+    display: inline-block;
 
-            font-size: 1.25em;
-            color: inherit;
+    font-size: 1.25em;
+    color: inherit;
 
-            padding: 0.875rem;
-            border: 1px solid black;
+    padding: 0.875rem;
+    border: 1px solid black;
 
-            text-decoration: none;
+    text-decoration: none;
 
-            margin-top: 1rem;
-        }
+    margin-top: 1rem;
+}
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <img src="img/exp_port.jpg" alt="It's me"/>
-        <div class="title">
-            <h1>Labunsky's web page</h1>
-            <h2>...work in progress...</h2>
-        </div>
+<div class="lang_switcher">EN/<a href="https://лабунский.рф/">RU</a></div>
 
-        <div class="stuff">
-            <a href="software">software</a>
-            <a href="papers">txts</a>
-            <a href="other">other</a>
-        </div>
-
-        <div class="stuff">
-            <a href="about">about</a>
-            <a href="contacts">contacts</a>
-        </div>
+<div class="container">
+    <img src="/img/head.jpg" alt="It's me"/>
+    <div class="title">
+        <h1>Labunsky's web page</h1>
+        <h2>...work in progress...</h2>
     </div>
 
-    <div class="footer">made from scratch by Labunsky Artem</div>
+    <div class="stuff">
+        <a href="software">software</a>
+        <a href="papers">txts</a>
+        <a href="other">other</a>
+    </div>
+
+    <div class="stuff">
+        <a href="about">about</a>
+        <a href="contacts">contacts</a>
+    </div>
+</div>
+
+<div class="footer">made from scratch by me</div>
 </body>
 </html>
