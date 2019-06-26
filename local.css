@@ -2,6 +2,9 @@
     margin-top: -12rem;
     text-align: center;
     line-height: initial;
+
+    max-height: calc(100% - 2rem);
+    margin-bottom: 1rem;
 }
 
 .container img {
@@ -53,4 +56,8 @@
     text-decoration: none;
 
     margin-top: 1rem;
+}
+
+.lang_switcher {
+    right: inherit !important;
 }

@@ -10,6 +10,7 @@
     <style>
 body {
     display: flex;
+
     align-items: center;
     justify-content: center;
 
@@ -20,37 +21,20 @@ body {
 }
 
 .container {
-    max-height: calc(100% - 2rem);
-    margin-bottom: 1rem;
+    max-height: 100%;
 
     overflow: auto;
     max-width: 85%;
 
     line-height: 150%;
 }
-
-.lang_switcher {
-    position: fixed;
-    top: 0.25rem;
-}
-
-.lang_switcher a {
-    color: black;
-}
-
-.footer {
-    position: fixed;
-    bottom: 0.25rem;
-}
-
-.footer .lang_switcher {
-    font-size: 0.75rem;
-    text-align: center;
-}
 .container {
     margin-top: -12rem;
     text-align: center;
     line-height: initial;
+
+    max-height: calc(100% - 2rem);
+    margin-bottom: 1rem;
 }
 
 .container img {
@@ -103,11 +87,21 @@ body {
 
     margin-top: 1rem;
 }
+
+.lang_switcher {
+    right: inherit !important;
+}
     </style>
 </head>
 
 <body>
-<div class="lang_switcher">En/<a href="https://лабунский.рф/">Ru</a></div>
+<div class="lang_switcher" style="
+    position: fixed;
+    text-align: center;
+
+    top: 0.25rem;
+    right: 0.25rem;
+"><a href="https://labunsky.info/" style="color: black;">En</a>/Ru</div>
 
 <div class="container">
     <img src="/img/head.jpg" alt="It's me"/>
@@ -128,6 +122,11 @@ body {
     </div>
 </div>
 
-<div class="footer">made from scratch by me</div>
+<div class="footer" style="
+    position: fixed;
+    font-size: 0.75rem;
+    text-align: center;
+    bottom: 0.25rem;
+">made from scratch by me</div>
 </body>
 </html>

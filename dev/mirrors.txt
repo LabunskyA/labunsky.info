@@ -2,6 +2,6 @@
 ./software=софт
 ./txts=тексты
 ./other=прочее
-./about=обо мне
+./about=обо%20мне
 ./about/cv=обо мне/резюме
 ./contacts=контакты

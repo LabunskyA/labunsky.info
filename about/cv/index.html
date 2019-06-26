@@ -11,6 +11,7 @@
     <style>
         body {
     display: flex;
+
     align-items: center;
     justify-content: center;
 
@@ -21,42 +22,28 @@
 }
 
 .container {
-    max-height: calc(100% - 2rem);
-    margin-bottom: 1rem;
+    max-height: 100%;
 
     overflow: auto;
     max-width: 85%;
 
     line-height: 150%;
 }
-
-.lang_switcher {
-    position: fixed;
-    top: 0.25rem;
-}
-
-.lang_switcher a {
-    color: black;
-}
-
-.footer {
-    position: fixed;
-    bottom: 0.25rem;
-}
-
-.footer .lang_switcher {
-    font-size: 0.75rem;
-    text-align: center;
-}
-        .container ul  {
+        .container ul {
     padding-right: 1rem;
 }
     </style>
 </head>
 
 <body>
-<div class="lang_switcher">EN/<a href="https://лабунский.рф/обо мне/резюме
-">RU</a></div>
+<div class="lang_switcher" style="
+    position: fixed;
+    text-align: center;
+
+    top: 0.25rem;
+    right: 0.25rem;
+"><a href="https://labunsky.info/обо мне/резюме
+" style="color: black;">En</a>/Ru</div>
 
 <div class="container">
     <p><strong>Labunsky Artem</strong> <a href="mailto:me@labunsky.info">me@labunsky.info</a></p>
@@ -103,7 +90,5 @@
 </ul>
 
 </div>
-
-<div class="footer">made from scratch by me</div>
 </body>
 </html>
