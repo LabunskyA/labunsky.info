@@ -11,7 +11,7 @@ ${LANG_SWITCHER}
 cat dev/lang_switcher.html
 
 ${MIRROR}
-grep -w -Po '{:s}=\K[^\n]*' < mirrors.txt
+grep -w -Po '{:s}=\K[^\n]*' < dev/mirrors.txt
 
 ${FOOTER}
 cat dev/footer.html
