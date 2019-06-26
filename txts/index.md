@@ -1,6 +1,6 @@
 Here you can find my published posts (work on the list is in progress):
 - introduction into the data compression using stegangraphy
-  - en: [html](stego_compression), [markdown](stego_compression/index.md)
+  - en: [html](compression), [markdown](compression/index.md)
 - data compression in JPEG files using F5 steganography algorithm
   - ru: [habrahabr](https://habr.com/ru/post/453332/)
   - en: [medium](https://medium.com/@labunskya/about-a-strange-data-compression-method-4d0d9d2e5714)
