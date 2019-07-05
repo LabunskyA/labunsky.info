@@ -1,21 +1,36 @@
-${META}
-cat dev/meta.html
+${PAGE_SHORT}
+cat dev/short.html
 
-${STYLES}
-cat global.css
+${PAGE_LONG}
+cat dev/long.html
 
-${STYLES_LOCAL}
-cat "{:s}/local.css"
+    ${META}
+    cat dev/meta.html
 
-${LANG_SWITCHER}
-cat dev/lang_switcher.html
+        ${TITLE}
+        echo -n $(grep -w -Po 'title=\K[^\n]*' < "{:s}/{:s}.conf")
 
-${MIRROR}
-grep -w -Po '{:s}=\K[^\n]*' < dev/mirrors.txt
+        ${DESCRIPTION}
+        echo -n $(grep -w -Po 'description=\K[^\n]*' < "{:s}/{:s}.conf")
 
-${FOOTER}
-cat dev/footer.html
+    ${STYLES}
+    cat "{:s}/{:s}.css" 2>/dev/null
 
-# Actual document content
-${MD_CONTENT}
-pandoc --from gfm --to html "{:s}/{:s}.md"
+    ${LANG_SWITCHER}
+    cat dev/lang_switcher.html
+
+    ${MIRROR}
+    echo -n $(grep -w -Po 'mirror=\K[^\n]*' < "{:s}/{:s}.conf")
+
+    ${CONTENT}
+    echo -n $(grep -w -Po 'content=\K[^\n]*' < "{:s}/{:s}.conf")
+
+        ${TXT}
+        cat "{:s}/{:s}.txt"
+
+        # markdown subtype
+        ${MD}
+        pandoc --from gfm --to html "{:s}/{:s}.md"
+
+    ${FOOTER}
+    cat dev/footer.html

@@ -1,0 +1,16 @@
+<img src="/img/head.jpg" alt="It's me"/>
+<div class="title">
+<h1>Labunsky's web page</h1>
+<h2>...work in progress...</h2>
+</div>
+
+<div class="stuff">
+<a href="software">software</a>
+<a href="txts">txts</a>
+<a href="other">other</a>
+</div>
+
+<div class="stuff">
+<a href="about">about</a>
+<a href="contacts">contacts</a>
+</div>

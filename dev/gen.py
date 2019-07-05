@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import os, sys, subprocess
+import os, sys
 
 IN_EXT, OUT_EXT = ".tmpl", ".html"
 RULES, LOCAL = sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None
@@ -8,7 +8,7 @@ TXT = []
 with open(RULES, "r") as rules:
     tokens = rules.read().split("\n\n")
     for token in tokens:
-        token = [x.strip() for x in token.split("\n") if len(x) > 0 and x[0] != '#']
+        token = [x for x in [x.strip() for x in token.split("\n")] if len(x) > 0 and x[0] != '#']
 
         if len(token) != 2:
             print("Ignoring tokens:\n{:s}".format(token))
@@ -34,8 +34,7 @@ for root, dirs, files in os.walk("./"):
                 replaced, changed = True, True
 
                 cmd = token[1].format(root, filename.replace(IN_EXT, ""))
-                replacement = subprocess.check_output(cmd, shell=True)
-                result = result.replace(token[0], replacement.decode("UTF-8"))
+                result = result.replace(token[0], os.popen(cmd).read())
 
             if not replaced:
                 break

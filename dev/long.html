@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    ${META}
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0.5rem;
+            height: calc(100% - 2rem);
+
+            font-family: "DejaVu Sans Mono", monospace;
+        }
+
+        .container {
+            min-height: calc(100% - 1rem);
+
+            max-width: 60rem;
+            margin: auto;
+
+            line-height: 150%;
+            text-align: justify;
+        }
+
+        ${STYLES}
+    </style>
+</head>
+
+<body>
+${LANG_SWITCHER}
+
+<div class="container">
+    ${CONTENT}
+</div>
+
+${FOOTER}
+</body>
+</html>

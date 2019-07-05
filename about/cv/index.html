@@ -1,49 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>CV-like</title>
+    <title>CV</title>
+<meta charset="UTF-8">
 
-    <meta charset="UTF-8">
-<meta name="description" content="Home page of Labunsky Artem.&ensp;Creating stuff no one thought should exist in the first place.">
+<meta name="description" content="Labunsky's CV">
 <meta name="viewport" content="width=device-width">
 
 <link rel="shortcut icon" href="/img/favicon.png">
     <style>
+        html {
+            height: 100%;
+        }
+
         body {
-    display: flex;
+            margin: 0.5rem;
+            height: calc(100% - 2rem);
 
-    align-items: center;
-    justify-content: center;
+            font-family: "DejaVu Sans Mono", monospace;
+        }
 
-    height: 100vh;
-    margin: 0;
+        .container {
+            min-height: calc(100% - 1rem);
 
-    font-family: "DejaVu Sans Mono", monospace;
-}
+            max-width: 60rem;
+            margin: auto;
 
-.container {
-    max-height: 100%;
+            line-height: 150%;
+            text-align: justify;
+        }
 
-    overflow: auto;
-    max-width: 85%;
-
-    line-height: 150%;
-}
-        .container ul {
-    padding-right: 1rem;
-}
+        
     </style>
 </head>
 
 <body>
-<div class="lang_switcher" style="
-    position: fixed;
-    text-align: center;
-
-    top: 0.25rem;
-    right: 0.25rem;
-">En/<a href="https://лабунский.рф/обо мне/резюме
-" style="color: black;">Ru</a></div>
+<div class="lang_switcher" style="float: right;">En/<a href="https://лабунский.рф/обо%20мне/резюме" style="color: black;">Ru</a></div>
 
 <div class="container">
     <p><strong>Labunsky Artem</strong> <a href="mailto:me@labunsky.info">me@labunsky.info</a></p>
@@ -90,5 +82,10 @@
 </ul>
 
 </div>
+
+<div class="footer" style="
+    font-size: 0.75rem;
+    text-align: center;
+">made from scratch by me</div>
 </body>
 </html>

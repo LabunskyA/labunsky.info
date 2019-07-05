@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Not found</title>
-<meta charset="UTF-8">
-
-<meta name="description" content="Home page of Labunsky Artem.&ensp; Creating things no one thought should exist in the first place.">
-<meta name="viewport" content="width=device-width">
-
-<link rel="shortcut icon" href="/img/favicon.png">
+    ${META}
     <style>
         body {
             display: flex;
@@ -38,20 +32,17 @@
             bottom: 0.25rem;
         }
 
-        
+        ${STYLES}
     </style>
 </head>
 
 <body>
-<div class="lang_switcher" style="float: right;">En/<a href="https://лабунский.рф/" style="color: black;">Ru</a></div>
+${LANG_SWITCHER}
 
 <div class="container">
-    nah, go away, it's 404
+    ${CONTENT}
 </div>
 
-<div class="footer" style="
-    font-size: 0.75rem;
-    text-align: center;
-">made from scratch by me</div>
+${FOOTER}
 </body>
 </html>
