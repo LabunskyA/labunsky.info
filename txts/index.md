@@ -16,7 +16,7 @@ We used to think of Telegram as a reliable and secure transmission medium for me
 TL;DR — inventing a private covert channel over users blocking each other.
 
 **Read more:**
-- en: [medium](https://medium.com/@labunskya/secret-telegrams-bdd2035b6e84), [habr](https://habr.com/ru/post/452434/), [dzone](https://dzone.com/articles/a-covert-channel-over-the-telegram-1)
+- en: [medium](https://medium.com/@labunskya/secret-telegrams-bdd2035b6e84), [dev.to](https://dev.to/labunskya/even-more-secret-telegrams-28bf), [habr](https://habr.com/ru/post/452434/), [dzone](https://dzone.com/articles/a-covert-channel-over-the-telegram-1)
 - ru: [habrahabr](https://habr.com/ru/post/451954)
 
 
