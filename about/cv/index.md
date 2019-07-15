@@ -5,7 +5,7 @@
   - extensive data protection techniques
   - decentralized networks and protocols
 - **Programming-related skills**
-  - right away will code in C, Java, JavaScript, Python (knew more but ain't sure in skill due to an infrequent usage)
+  - right away will code in C, C++, Java, JavaScript, Python (knew more but ain't sure in skill due to an infrequent usage)
   - have a good understanding of the most language-specific tech so can learn new ones in a short time
   - able to use existing and create custom effective algorithms and data structures
   - knowledge of computer architecture base principles and mechanisms
