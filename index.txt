@@ -1,7 +1,7 @@
 <img src="/img/head.jpg" alt="It's me"/>
 <div class="title">
 <h1>Labunsky's web page</h1>
-<h2>...work in progress...</h2>
+<h2>oh hai doggy</h2>
 </div>
 
 <div class="stuff">
