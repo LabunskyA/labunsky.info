@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-import os, sys
+import os
 
-IN_EXT, OUT_EXT = ".tmpl", ".html"
-RULES = sys.argv[1] if len(sys.argv) > 1 else None
+IN_EXT, OUT_EXT, RULES, TXT = ".tmpl", ".html", os.path.join(os.path.dirname(__file__), "rules.txt"), []
 
-TXT = []
 with open(RULES, "r") as rules:
     tokens = rules.read().split("\n\n")
     for token in tokens:
