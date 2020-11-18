@@ -43,37 +43,27 @@
     text-align: center;
 }
 
-.container img {
+#head {
     max-width: 16rem;
     border-radius: 15%;
-    margin-bottom: 0.5rem;
-}
-
-@media screen and (max-height: 40rem) {
-    .container img {
-        display: none;
-    }
-}
-
-@media screen and (max-height: 50rem) {
-    .container {
-        margin-top: 0;
-    }
 }
 
 .title {
     text-align: center;
-    margin-bottom: 0.5rem;
 }
 
 .title h1 {
-    margin: 0;
-    font-size: 2.5rem;
+    margin: .5rem 0;
+    font-size: 2rem;
 }
 
-.title h2 {
-    margin: 0;
-    font-size: 1.125rem;
+.social div {
+    display: inline-block;
+}
+
+.social a {
+    display: inline-block;
+    min-width: 1.85rem;
 }
 
 .stuff {
@@ -82,39 +72,83 @@
 
 .stuff a {
     display: inline-block;
+    margin-top: .5rem;
 
     font-size: 1.25em;
     color: inherit;
 
-    padding: 0.875rem;
+    padding: .875rem;
     border: 1px solid black;
 
     text-decoration: none;
+}
 
-    margin-top: 1rem;
+@media screen and (max-height: 40rem) and (min-height: 26rem) {
+    .container {
+        margin-bottom: 0;
+    }
+
+    #head {
+        max-width: 10rem;
+    }
+
+    .social div {
+        display: block;
+        margin-top: .25rem;
+    }
+
+    .stuff a {
+        display: block;
+        padding: .75rem;
+        max-width: 10rem;
+    }
+
+    .title h1 {
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-height: 26rem) {
+    #head {
+        max-width: 30%;
+    }
+}
+
+@media screen and (max-height: 50rem) {
+    .container {
+        margin-top: 0;
+    }
 }
     </style>
 </head>
 
 <body>
-<div class="lang_switcher" style="float: right;">En/<a href="https://лабунский.рф/" style="color: black;">Ru</a></div>
+<div class="lang_switcher" style="float: right;">En/<a href="https://labunsky.info/ru/" style="color: black;">Ru</a></div>
 
 <div class="container">
-    <img src="/img/head.jpg" alt="It's me"/>
+    <img id="head" src="img/head.jpg" />
 <div class="title">
-<h1>Labunsky's web page</h1>
-<h2>oh hai doggy</h2>
+    <h1>it's me</h1>
+    <div class="social">
+        <div>
+            <a href="mailto:me@labunsky.info"><img src="img/email.svg"/></a>
+            <a href="https://t.me/LabunskyA"><img src="img/telegram.svg"/></a>
+            <a href="https://github.com/LabunskyA/"><img src="img/github.svg"/></a>
+            <a href="https://unsplash.com/@labunsky"><img src="img/unsplash.svg"/></a>
+        </div>
+        <div>
+            <a href="https://medium.com/@labunskya"><img src="img/medium.svg"/></a>
+            <a href="https://linkedin.com/in/labunskya"><img src="img/linkedin.svg"/></a>
+            <a href="https://vk.com/labunsky"><img src="img/vk.svg"/></a>
+            <a href="https://twitter.com/sLabunsky"><img src="img/twitter.svg"/></a>
+        </div>
+    </div>
 </div>
 
 <div class="stuff">
-<a href="software">software</a>
-<a href="txts">txts</a>
-<a href="other">other</a>
-</div>
-
-<div class="stuff">
-<a href="about">about</a>
-<a href="contacts">contacts</a>
+    <a href="software">software</a>
+    <a href="txts">txts</a>
+    <a href="about">about</a>
 </div>
 </div>
 

@@ -2,12 +2,12 @@ You can contact me in with the methods below. I speak English and Russian langua
 - **using magical letters over the cables:**
   - <me@labunsky.info>
   - [or use this one](mailto:log.me.here.now.yeah@gmail.com) in case the other is not working for some reason
-  - [and also this stupid thing](https://t.me/LabunskyA) if you're into this kind of high tech
-- **on a fake personality platform:**
-  - [vk](http://vk.com/labunsky) for any kind of informal contact)
-  - [twitter](https://twitter.com/sLabunsky) (for dogs tweets)
+  - [you can also use telegram](https://t.me/LabunskyA) if you're into this kind of high tech
+- **on a fake personality-oriented platforms:**
+  - [vk](http://vk.com/labunsky) (for any kind of informal contact)
+  - [twitter](https://twitter.com/sLabunsky) (for watching dog-related tweets)
   - [linkedin](http://linkedin.com/in/labunskya "no, really, why?") (why would you use it?)
-- **on code and work related platforms:**
+- **code and work related stuff:**
   - [github](http://github.com/LabunskyA) - code and stuff
-  - [habr](https://habr.com/users/labunsky/) - posts and papers, ru and eng
+  - [habr](https://habr.com/users/labunsky/) - popular posts
   - [medium](https://medium.com/@labunskya) - same, english only

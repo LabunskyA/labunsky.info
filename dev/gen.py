@@ -2,7 +2,7 @@
 import os, sys
 
 IN_EXT, OUT_EXT = ".tmpl", ".html"
-RULES, LOCAL = sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None
+RULES = sys.argv[1] if len(sys.argv) > 1 else None
 
 TXT = []
 with open(RULES, "r") as rules:

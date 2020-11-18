@@ -7,6 +7,9 @@ cat dev/long.html
     ${META}
     cat dev/meta.html
 
+        ${LANG}
+        echo -n $(grep -w -Po 'lang=\K[^\n]*' < "{:s}/{:s}.conf")
+
         ${TITLE}
         echo -n $(grep -w -Po 'title=\K[^\n]*' < "{:s}/{:s}.conf")
 
