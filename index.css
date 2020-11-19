@@ -8,17 +8,9 @@
     border-radius: 15%;
 }
 
-.title {
-    text-align: center;
-}
-
-.title h1 {
-    margin: .5rem 0;
-    font-size: 2rem;
-}
-
 .social div {
     display: inline-block;
+    margin-top: .5rem;
 }
 
 .social a {
@@ -26,12 +18,9 @@
     min-width: 1.85rem;
 }
 
-.stuff {
-    text-align: center;
-}
-
 .stuff a {
     display: inline-block;
+    margin: auto;
     margin-top: .5rem;
 
     font-size: 1.25em;
@@ -43,39 +32,34 @@
     text-decoration: none;
 }
 
-@media screen and (max-height: 40rem) and (min-height: 26rem) {
-    .container {
-        margin-bottom: 0;
-    }
-
+@media screen and (max-height: 55rem) and (min-height: 26rem) and (max-width: 26rem) {
     #head {
-        max-width: 10rem;
+        margin-bottom: .5rem;
     }
 
     .social div {
         display: block;
-        margin-top: .25rem;
     }
 
     .stuff a {
         display: block;
-        padding: .75rem;
+        max-width: 10rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-height: 40rem) and (min-height: 26rem) {
+    #head {
         max-width: 10rem;
     }
 
-    .title h1 {
-        font-size: 1.75rem;
+    .stuff a {
+        padding: .75rem;
     }
 }
 
 @media screen and (max-height: 26rem) {
     #head {
-        max-width: 30%;
-    }
-}
-
-@media screen and (max-height: 50rem) {
-    .container {
-        margin-top: 0;
+        max-width: 25%;
     }
 }

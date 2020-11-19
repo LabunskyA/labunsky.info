@@ -9,33 +9,28 @@
 
 <link rel="shortcut icon" href="/img/favicon.png">
     <style>
+        html {
+            height: 100%;
+        }
+
         body {
-            display: flex;
-
-            align-items: center;
-            justify-content: center;
-
-            height: calc(100vh - 1rem);
-            margin: 0.5rem;
+            margin: .5rem;
+            height: calc(100% - 2rem);
 
             font-family: "DejaVu Sans Mono", monospace;
         }
 
         .container {
+            min-height: calc(100% - 1.25rem);
+
+            max-width: 60rem;
+            padding: 1rem;
+
+            margin: auto;
+            margin-bottom: -.75rem;
+
             line-height: 150%;
-
-            max-height: calc(100% - 2rem);
-            margin-bottom: 1rem;
-        }
-
-        .lang_switcher {
-            position: fixed;
-            top: 0.25rem;
-        }
-
-        .footer {
-            position: fixed;
-            bottom: 0.25rem;
+            text-align: justify;
         }
 
         .container {
@@ -48,17 +43,9 @@
     border-radius: 15%;
 }
 
-.title {
-    text-align: center;
-}
-
-.title h1 {
-    margin: .5rem 0;
-    font-size: 2rem;
-}
-
 .social div {
     display: inline-block;
+    margin-top: .5rem;
 }
 
 .social a {
@@ -66,12 +53,9 @@
     min-width: 1.85rem;
 }
 
-.stuff {
-    text-align: center;
-}
-
 .stuff a {
     display: inline-block;
+    margin: auto;
     margin-top: .5rem;
 
     font-size: 1.25em;
@@ -83,65 +67,56 @@
     text-decoration: none;
 }
 
-@media screen and (max-height: 40rem) and (min-height: 26rem) {
-    .container {
-        margin-bottom: 0;
-    }
-
+@media screen and (max-height: 55rem) and (min-height: 26rem) and (max-width: 26rem) {
     #head {
-        max-width: 10rem;
+        margin-bottom: .5rem;
     }
 
     .social div {
         display: block;
-        margin-top: .25rem;
     }
 
     .stuff a {
         display: block;
-        padding: .75rem;
+        max-width: 10rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-height: 40rem) and (min-height: 26rem) {
+    #head {
         max-width: 10rem;
     }
 
-    .title h1 {
-        font-size: 1.75rem;
+    .stuff a {
+        padding: .75rem;
     }
 }
 
 @media screen and (max-height: 26rem) {
     #head {
-        max-width: 30%;
-    }
-}
-
-@media screen and (max-height: 50rem) {
-    .container {
-        margin-top: 0;
+        max-width: 25%;
     }
 }
     </style>
 </head>
 
 <body>
-<div class="lang_switcher" style="float: right;">En/<a href="https://labunsky.info/ru/" style="color: black;">Ru</a></div>
-
 <div class="container">
-    <img id="head" src="img/head.jpg" />
-<div class="title">
-    <h1>it's me</h1>
-    <div class="social">
-        <div>
-            <a href="mailto:me@labunsky.info"><img src="img/email.svg"/></a>
-            <a href="https://t.me/LabunskyA"><img src="img/telegram.svg"/></a>
-            <a href="https://github.com/LabunskyA/"><img src="img/github.svg"/></a>
-            <a href="https://unsplash.com/@labunsky"><img src="img/unsplash.svg"/></a>
-        </div>
-        <div>
-            <a href="https://medium.com/@labunskya"><img src="img/medium.svg"/></a>
-            <a href="https://linkedin.com/in/labunskya"><img src="img/linkedin.svg"/></a>
-            <a href="https://vk.com/labunsky"><img src="img/vk.svg"/></a>
-            <a href="https://twitter.com/sLabunsky"><img src="img/twitter.svg"/></a>
-        </div>
+    <img id="head" src="img/head.jpg" alt="it's me"/>
+
+<div class="social">
+    <div>
+        <a href="mailto:me@labunsky.info"><img src="img/email.svg"/></a>
+        <a href="https://t.me/LabunskyA"><img src="img/telegram.svg"/></a>
+        <a href="https://github.com/LabunskyA/"><img src="img/github.svg"/></a>
+        <a href="https://unsplash.com/@labunsky"><img src="img/unsplash.svg"/></a>
+    </div>
+    <div>
+        <a href="https://medium.com/@labunskya"><img src="img/medium.svg"/></a>
+        <a href="https://linkedin.com/in/labunskya"><img src="img/linkedin.svg"/></a>
+        <a href="https://vk.com/labunsky"><img src="img/vk.svg"/></a>
+        <a href="https://twitter.com/sLabunsky"><img src="img/twitter.svg"/></a>
     </div>
 </div>
 

@@ -1,19 +1,17 @@
-<img id="head" src="img/head.jpg" />
-<div class="title">
-    <h1>it's me</h1>
-    <div class="social">
-        <div>
-            <a href="mailto:me@labunsky.info"><img src="img/email.svg"/></a>
-            <a href="https://t.me/LabunskyA"><img src="img/telegram.svg"/></a>
-            <a href="https://github.com/LabunskyA/"><img src="img/github.svg"/></a>
-            <a href="https://unsplash.com/@labunsky"><img src="img/unsplash.svg"/></a>
-        </div>
-        <div>
-            <a href="https://medium.com/@labunskya"><img src="img/medium.svg"/></a>
-            <a href="https://linkedin.com/in/labunskya"><img src="img/linkedin.svg"/></a>
-            <a href="https://vk.com/labunsky"><img src="img/vk.svg"/></a>
-            <a href="https://twitter.com/sLabunsky"><img src="img/twitter.svg"/></a>
-        </div>
+<img id="head" src="img/head.jpg" alt="it's me"/>
+
+<div class="social">
+    <div>
+        <a href="mailto:me@labunsky.info"><img src="img/email.svg"/></a>
+        <a href="https://t.me/LabunskyA"><img src="img/telegram.svg"/></a>
+        <a href="https://github.com/LabunskyA/"><img src="img/github.svg"/></a>
+        <a href="https://unsplash.com/@labunsky"><img src="img/unsplash.svg"/></a>
+    </div>
+    <div>
+        <a href="https://medium.com/@labunskya"><img src="img/medium.svg"/></a>
+        <a href="https://linkedin.com/in/labunskya"><img src="img/linkedin.svg"/></a>
+        <a href="https://vk.com/labunsky"><img src="img/vk.svg"/></a>
+        <a href="https://twitter.com/sLabunsky"><img src="img/twitter.svg"/></a>
     </div>
 </div>
 

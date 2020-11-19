@@ -19,12 +19,6 @@ cat dev/long.html
     ${STYLES}
     cat "{:s}/{:s}.css" 2>/dev/null
 
-    ${LANG_SWITCHER}
-    cat dev/lang_switcher.html
-
-    ${MIRROR}
-    echo -n $(grep -w -Po 'mirror=\K[^\n]*' < "{:s}/{:s}.conf")
-
     ${CONTENT}
     echo -n $(grep -w -Po 'content=\K[^\n]*' < "{:s}/{:s}.conf")
 

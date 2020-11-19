@@ -9,33 +9,28 @@
 
 <link rel="shortcut icon" href="/img/favicon.png">
     <style>
+        html {
+            height: 100%;
+        }
+
         body {
-            display: flex;
-
-            align-items: center;
-            justify-content: center;
-
-            height: calc(100vh - 1rem);
-            margin: 0.5rem;
+            margin: .5rem;
+            height: calc(100% - 2rem);
 
             font-family: "DejaVu Sans Mono", monospace;
         }
 
         .container {
+            min-height: calc(100% - 1.25rem);
+
+            max-width: 60rem;
+            padding: 1rem;
+
+            margin: auto;
+            margin-bottom: -.75rem;
+
             line-height: 150%;
-
-            max-height: calc(100% - 2rem);
-            margin-bottom: 1rem;
-        }
-
-        .lang_switcher {
-            position: fixed;
-            top: 0.25rem;
-        }
-
-        .footer {
-            position: fixed;
-            bottom: 0.25rem;
+            text-align: justify;
         }
 
         
@@ -43,8 +38,6 @@
 </head>
 
 <body>
-<div class="lang_switcher" style="float: right;">En/<a href="https://labunsky.info/ru/ru/софт" style="color: black;">Ru</a></div>
-
 <div class="container">
     <p>here you can find software-related things I mage:</p>
 <ul>
