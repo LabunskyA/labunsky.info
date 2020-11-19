@@ -38,7 +38,12 @@
 }
 
 #head {
-    max-width: 16rem;
+    width: 16rem;
+    margin: auto;
+}
+
+#head img {
+    max-width: 100%;
     border-radius: 15%;
 }
 
@@ -89,13 +94,13 @@
 
 @media screen and (max-height: 40rem) and (min-height: 26rem) {
     #head {
-        max-width: 12rem;
+        width: 12rem;
     }
 }
 
 @media screen and (max-height: 26rem) {
     #head {
-        max-width: 25%;
+        width: 25%;
     }
 }
     </style>
@@ -103,7 +108,9 @@
 
 <body>
 <div class="container">
-    <img id="head" src="img/head.webp" alt="it's me"/>
+    <div id="head">
+    <img src="img/head.webp" alt="it's me"/>
+</div>
 
 <div class="social">
     <div>
