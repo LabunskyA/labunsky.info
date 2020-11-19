@@ -10,6 +10,10 @@
     margin: auto;
 }
 
+#head h1, h2 {
+    display: none;
+}
+
 #head img {
     max-width: 100%;
     border-radius: 15%;
