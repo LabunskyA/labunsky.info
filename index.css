@@ -15,13 +15,14 @@
 
 .social a {
     display: inline-block;
-    min-width: 1.85rem;
+    min-width: 2rem;
 }
 
 .stuff a {
     display: inline-block;
-    margin: auto;
+    
     margin-top: .5rem;
+    margin-right: .25rem;
 
     font-size: 1.25em;
     color: inherit;
@@ -33,28 +34,32 @@
 }
 
 @media screen and (max-height: 55rem) and (min-height: 26rem) and (max-width: 26rem) {
-    #head {
-        margin-bottom: .5rem;
-    }
-
     .social div {
         display: block;
     }
 
+    .social a {
+        margin-right: .5rem;
+    }
+
     .stuff a {
         display: block;
-        max-width: 10rem;
+        
+        max-width: 14rem;
         margin-top: 1rem;
+
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 @media screen and (max-height: 40rem) and (min-height: 26rem) {
     #head {
-        max-width: 10rem;
+        max-width: 12rem;
     }
 
     .stuff a {
-        padding: .75rem;
+        max-width: 10rem;
     }
 }
 
