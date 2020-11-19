@@ -1,4 +1,4 @@
-<img id="head" src="img/head.jpg" alt="it's me"/>
+<img id="head" src="img/head.webp" alt="it's me"/>
 
 <div class="social">
     <div>
