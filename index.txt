@@ -13,10 +13,10 @@
         <a href="https://unsplash.com/@labunsky"><img src="img/unsplash.svg"/></a>
     </div>
     <div>
+        <a href="https://twitter.com/sLabunsky"><img src="img/twitter.svg"/></a>
         <a href="https://linkedin.com/in/labunskya"><img src="img/linkedin.svg"/></a>
         <a href="https://vk.com/labunsky"><img src="img/vk.svg"/></a>
         <a href="https://medium.com/@labunskya"><img src="img/medium.svg"/></a>
-        <a href="https://twitter.com/sLabunsky"><img src="img/twitter.svg"/></a>
     </div>
 </div>
 
