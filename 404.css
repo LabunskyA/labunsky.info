@@ -1,0 +1,7 @@
+.header {
+    display: none;
+}
+
+.container {
+    min-height: calc(100% - 1.25rem);
+}

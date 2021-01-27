@@ -1,6 +1,11 @@
+.header {
+    display: none;
+}
+
 .container {
     line-height: initial;
     text-align: center;
+    min-height: calc(100% - 1.25rem);
 }
 
 #head {

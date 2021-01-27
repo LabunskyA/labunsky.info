@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: .5rem;
+    height: calc(100% - 2rem);
+
+    font-family: "DejaVu Sans Mono", monospace;
+}
+
+.header {
+    position: absolute;
+}
+
+.header a {
+    color: black;
+    font-size: 0.75rem;
+}
+
+.container {
+    min-height: calc(100% - 1.25rem);
+
+    max-width: 60rem;
+    padding: 1rem;
+
+    margin: auto;
+    margin-bottom: -.75rem;
+}
+
+.container p {
+    line-height: 150%;
+}
+
+.footer {
+    font-size: .75rem;
+    text-align: center;
+    margin-bottom: .5rem;
+}

@@ -1,122 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Labunsky's</title>
-<meta charset="UTF-8">
-
-<meta name="description" content="Home page of Labunsky Artem.&ensp; Creating things no one thought should exist in the first place.">
-<meta name="viewport" content="width=device-width">
-
-<link rel="shortcut icon" href="/img/favicon.png">
-    <style>
-        html {
-            height: 100%;
-        }
-
-        body {
-            margin: .5rem;
-            height: calc(100% - 2rem);
-
-            font-family: "DejaVu Sans Mono", monospace;
-        }
-
-        .container {
-            min-height: calc(100% - 1.25rem);
-
-            max-width: 60rem;
-            padding: 1rem;
-
-            margin: auto;
-            margin-bottom: -.75rem;
-
-            line-height: 150%;
-        }
-
-        .container {
-    line-height: initial;
-    text-align: center;
-}
-
-#head {
-    width: 16rem;
-    height: 16rem;
-
-    margin: auto;
-}
-
-#head h1, h2 {
-    display: none;
-}
-
-#head img {
-    max-width: 100%;
-    border-radius: 15%;
-}
-
-.social div {
-    display: inline-block;
-    margin-top: .5rem;
-}
-
-.social a {
-    display: inline-block;
-    min-width: 2rem;
-}
-
-.stuff a {
-    display: inline-block;
-    
-    margin-top: .5rem;
-    margin-right: .25rem;
-
-    font-size: 1.25em;
-    color: inherit;
-
-    padding: .875rem;
-    border: 1px solid black;
-
-    text-decoration: none;
-}
-
-@media screen and (max-height: 55rem) and (min-height: 26rem) and (max-width: 26rem) {
-    .social div {
-        display: block;
-    }
-
-    .social a {
-        margin-right: .5rem;
-    }
-
-    .stuff a {
-        display: block;
+    <head>
+        <meta charset="UTF-8">
         
-        max-width: 10rem;
-        margin-top: 1rem;
+        <title>Labunsky's</title>
+        <meta name="description" content="Home page of Labunsky Artem.&ensp; Creating things no one thought should exist in the first place.">
 
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="/img/favicon.png">
+        <link rel="stylesheet" href="/base/styles.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+    </head>
 
-@media screen and (max-height: 40rem) and (min-height: 26rem) {
-    #head {
-        width: 12rem;
-        height: 12rem;
-    }
-}
+    <body>
+        <div class="header">
+            <a href="../">back</a>
+        </div>
 
-@media screen and (max-height: 26rem) {
-    #head {
-        width: 25%;
-        height: 25%;
-    }
-}
-    </style>
-</head>
-
-<body>
-<div class="container">
-    <div id="head">
+        <div class="container">
+            <div id="head">
     <h1>Labunsky's web page</h1>
     <h2>Here you can find any public info on me and my work. Use social badges to contact me if you want to.</h2>
     
@@ -143,12 +45,8 @@
     <a href="txts">txts</a>
     <a href="about">about</a>
 </div>
-</div>
+        </div>
 
-<div class="footer" style="
-    font-size: .75rem;
-    text-align: center;
-    margin-bottom: .5rem;
-">made from scratch by me</div>
-</body>
+        <div class="footer">made from scratch by me</div>
+    </body>
 </html>

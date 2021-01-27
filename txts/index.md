@@ -30,7 +30,7 @@ TL;DR - developing and testing steganographic channels capabilities as internet 
 TL;DR - describing data compression techniques based on steganography encoding missed in more classic disciplines.
 
 **Read more:** 
-- en: [html](https://labunsky.info/txts/compression), [markdown](https://labunsky.info/txts/compression/index.md)
+- en: [html](compression), [markdown](compression/index.md)
 - ru: *in translation*
 
   
