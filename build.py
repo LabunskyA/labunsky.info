@@ -1,13 +1,9 @@
 #!/usr/bin/python3
 import os, re, markdown
 
-
 def read_file(path):
-    if not os.path.exists(path):
-        return ''
     with open(path, 'r') as file:
         return file.read()
-
 
 file_rules = {
     '.txt': { 
@@ -49,9 +45,11 @@ for root, dirs, files in os.walk("./"):
         for var in config:
             page = page.replace("${{{:s}}}".format(var.upper()), config[var])
         for ext in file_rules:
-            page = page.replace(file_rules[ext]['tag'], file_rules[ext]['preprocess'](os.path.join(root, filename.replace('.conf', ext))))
+            path = os.path.join(root, filename.replace('.conf', ext))
+            if os.path.exists(path):
+                page = page.replace(file_rules[ext]['tag'], file_rules[ext]['preprocess'](path))
         for tag in re.findall('\$\{(.*?)\}', page):
             page = page.replace('${' + tag + '}', '');
-
+            
         with open(os.path.join(root, filename.replace('.conf', '.html')), "w") as dest:
             dest.write(page)
