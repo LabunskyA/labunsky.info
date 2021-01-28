@@ -5,6 +5,12 @@ def read_file(path):
     with open(path, 'r') as file:
         return file.read()
 
+def process_css(path):
+    css = read_file(path)
+    if len(css) < 1024:
+        return '<style>' + css + '</style>'
+    return '<link rel="stylesheet" href="' + os.path.normpath(path) + '" type="text/css">'
+
 file_rules = {
     '.txt': { 
         'tag': '${CONTENT}',
@@ -12,7 +18,7 @@ file_rules = {
     },
     '.css': { 
         'tag': '${STYLES}',
-        'preprocess': lambda path: '<link rel="stylesheet" href="' + os.path.normpath(path) + '" type="text/css">'
+        'preprocess': lambda path: process_css(path)
     },
     '.md': {
         'tag': '${CONTENT}', 
