@@ -6,6 +6,7 @@ After all, we don't want a disclosure - it threatens not only the agents themsel
 TL;DR - inventing authentication steganography-based technique for the imaginable three-letters agency.
 
 **Read more:**
+
 - en: *in translation*
 - ru: [habr](https://habr.com/ru/post/456670/)
 
@@ -16,6 +17,7 @@ We used to think of Telegram as a reliable and secure transmission medium for me
 TL;DR - inventing a private covert channel through users blacklisting each other.
 
 **Read more:**
+
 - en: [medium](https://medium.com/@labunskya/secret-telegrams-bdd2035b6e84)
 - ru: [habr](https://habr.com/ru/post/451954)
 
@@ -30,6 +32,7 @@ TL;DR - developing and testing steganographic channels capabilities as internet 
 TL;DR - describing data compression techniques based on steganography encoding missed in more classic disciplines.
 
 **Read more:** 
+
 - en: [html](compression), [markdown](compression/index.md)
 - ru: *in translation*
 
@@ -45,6 +48,7 @@ Sure, you should not explicitly search for existing pieces of data on a hard dri
 TL;DR — trying to tell about strange data storage optimization technique using JPEG-files and F5 steganography algorithm.
 
 **Read more:**  
+
 - en: [medium](https://medium.com/@labunskya/about-a-strange-data-compression-method-4d0d9d2e5714)
 - ru: [habr](https://habr.com/ru/post/453332/)
 
