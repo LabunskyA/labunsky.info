@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import os, re, markdown
+import os, re, markdown, htmlmin
 
 def read_file(path):
     with open(path, 'r') as file:
@@ -52,4 +52,4 @@ for root, dirs, files in os.walk("./"):
             page = page.replace('${' + tag + '}', '');
             
         with open(os.path.join(root, filename.replace('.conf', '.html')), "w") as dest:
-            dest.write(page)
+            dest.write(htmlmin.minify(page))

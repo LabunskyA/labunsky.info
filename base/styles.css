@@ -9,6 +9,10 @@ body {
     font-family: "DejaVu Sans Mono", monospace;
 }
 
+p, ul {
+    line-height: 150%;
+}
+
 .header {
     position: absolute;
 }
@@ -26,10 +30,6 @@ body {
 
     margin: auto;
     margin-bottom: -.75rem;
-}
-
-.container p {
-    line-height: 150%;
 }
 
 .footer {
