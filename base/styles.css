@@ -19,20 +19,19 @@ p, ul {
 
 .header a {
     color: black;
-    font-size: 0.75rem;
 }
 
 .container {
-    min-height: calc(100% - 1.25rem);
+    min-height: calc(100% - 2.25rem);
 
     max-width: 60rem;
     padding: 1rem;
 
     margin: auto;
-    margin-bottom: -.75rem;
 }
 
 .footer {
+    margin: auto;
     text-align: center;
     padding-bottom: .5rem;
 }
