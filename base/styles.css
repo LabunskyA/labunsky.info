@@ -6,15 +6,32 @@ body {
     margin: .5rem;
     height: calc(100% - 2rem);
 
-    font-family: "DejaVu Sans Mono", monospace;
+    font-family: "Courier New";
+    word-spacing: -.15rem;
 }
 
 p, ul {
     line-height: 150%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+h1 {
+    padding-bottom: .65rem;
+    border-bottom: 1px solid;
+    margin-bottom: .65rem;
+}
+
+h2 {
+    padding-bottom: .625rem;
+    border-bottom: 1px dashed;
+    margin-bottom: .625rem;
+}
+
 .header {
-    position: absolute;
+    float: right;
 }
 
 .header a {

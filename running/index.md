@@ -22,4 +22,4 @@ That's why I decided to write about every single one separately:
 - [Under Armour](ua) - one of the best soles to date. And they are smart!
 - [Asics](asics) - an oldscooler trying to innovate;
 - [Newton](newton) - the most weird and satisfying to run in shoes you could possibly find;
-- [Kiprun / Kalenji / Evadict](decathlon) - European brands from Decathlon trying to keep up with the competition.
+- [Kiprun / Kalenji / Evadict](decathlon) - Decathlon brands trying to keep up with the competition.
