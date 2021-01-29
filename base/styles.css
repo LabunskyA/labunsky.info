@@ -41,7 +41,7 @@ h2 {
 .container {
     min-height: calc(100% - 2.25rem);
 
-    max-width: 60rem;
+    max-width: 90ch;
     padding: 1rem;
 
     margin: auto;
