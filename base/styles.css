@@ -7,7 +7,7 @@ body {
     height: calc(100% - 2rem);
 
     font-family: "Courier New";
-    word-spacing: -.15rem;
+    /* word-spacing: -.15rem; */
 }
 
 p, ul {
