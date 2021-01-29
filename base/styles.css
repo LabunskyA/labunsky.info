@@ -33,7 +33,6 @@ p, ul {
 }
 
 .footer {
-    font-size: .75rem;
     text-align: center;
-    margin-bottom: .5rem;
+    padding-bottom: .5rem;
 }
