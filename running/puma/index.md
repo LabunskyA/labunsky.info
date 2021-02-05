@@ -10,20 +10,22 @@ Being a Nike subordinate the pricing is not all that good. But they have pretty 
 
 **Technology:**
 
-- XETIC - new EVA midsole, half-empty with MIT-calculated pattern to evenly distribute and return step energy;
-- NRGY - Boost-like beaded TPU midsole material;
-- Ignite - lighter TPU midsole with 34% better energy return over the usual EVA; 
-- Hybrid - Ignite with candy-like embedded NRGY beads;
-- ProFoam - EVA-based midsole used both as a cage and an independent midsole;
-- Proplate - Puma's view on propulsion plates. Only plastic ones for now;
-- SpeedTracktion - outsole pattern oriented on the forefoot strikers;
-- SoftFoam - soft insole material, similar to Skechers memory foam.
+- **NITRO** - super-critical nitrogen-injected EVA foam (think Skechers Hyper Burst);
+- **XETIC** - new EVA midsole, half-empty with MIT-calculated pattern to evenly distribute and return step energy;
+- **NRGY** - Boost-like beaded TPU midsole material;
+- **Ignite** - lighter TPU midsole with 34% better energy return over the usual EVA; 
+- **Hybrid** - Ignite with candy-like embedded NRGY beads;
+- **ProFoam** - EVA-based midsole used both as a cage and an independent midsole;
+- **Proplate** - Puma's view on propulsion plates, made from plastic;
+- **InnoPlate** - carbon plate with a forked design;
+- **SpeedTracktion** - outsole pattern oriented on the forefoot strikers;
+- **SoftFoam** - soft insole material, similar to Skechers memory foam.
 
 **Shoes to consider:** 
 
-- Speed 300 - lowest drop and stack available, good for faster workouts;
-- Speed 600 - caged NRGY beads with propulsion as a good daily trainer;
-- Hybrid Runner - full neutral HYBRID midsole with nice grippy outsole;
+- **Deviate Nitro** - great foam and carbon plate for a reasonable price;
+- **Speed 600** - caged NRGY beads with propulsion as a good daily trainer;
+- **Hybrid Runner** - full neutral HYBRID midsole with nice grippy outsole.
 
 **The Good:** 
 

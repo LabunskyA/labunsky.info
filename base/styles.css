@@ -14,20 +14,24 @@ p, ul {
     line-height: 150%;
 }
 
+ul li {
+    margin: .25rem 0
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
 h1 {
-    padding-bottom: .65rem;
+    padding-bottom: calc(.335em - 1px);
     border-bottom: 1px solid;
-    margin-bottom: .65rem;
+    margin-bottom: .335em;
 }
 
 h2 {
-    padding-bottom: .625rem;
+    padding-bottom: calc(.415em - 1px);
     border-bottom: 1px dashed;
-    margin-bottom: .625rem;
+    margin-bottom: .415em;
 }
 
 .header {
