@@ -22,6 +22,6 @@
 
 <div class="stuff">
     <a href="stuff">Things</a>
-    <a href="txts">Running, Shoes and the Tech</a>
+    <a href="running">Running, Shoes and the Tech</a>
     <a href="about">About</a>
 </div>
