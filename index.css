@@ -37,16 +37,14 @@
 
 .stuff a {
     display: inline-block;
-    
-    margin-top: .5rem;
-    margin-right: .25rem;
 
     font-size: 1.25em;
     color: inherit;
 
-    padding: .875rem;
-    border-bottom: 1px solid black;
+    margin: .5rem .25rem .4375rem 0;
+    padding: .875rem .875rem .4375rem .875rem;
 
+    border-bottom: 1px solid black;
     text-decoration: none;
 }
 
@@ -70,6 +68,7 @@
     }
 }
 
+/* Phones head size limiter */
 @media screen and (max-height: 40rem) and (min-height: 26rem) {
     #head {
         width: 12rem;
@@ -77,6 +76,7 @@
     }
 }
 
+/* Phones landscape fill */
 @media screen and (max-height: 26rem) {
     #head {
         width: 25%;
@@ -84,6 +84,13 @@
     }
 
     .container {
-        max-width: 40rem;
+        max-width: 90%;
+    }
+}
+
+/* iPhone 5/SE and lower resolutions at landscape orientation override */
+@media screen and (max-width: 36rem) {
+    .container {
+        max-width: 40ch;
     }
 }

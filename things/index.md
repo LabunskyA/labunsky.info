@@ -20,7 +20,7 @@ After all, we don't want a disclosure - it threatens not only the agents themsel
 
 tl;dr - inventing authentication steganography-based technique for the imaginable three-letters agency.
 
-**More:** [habr / ru](https://habr.com/ru/post/456670/)
+**More:** [habr/ru](https://habr.com/ru/post/456670/)
 
 [GitHub](https://github.com/LabunskyA/StegoAuth)
 
