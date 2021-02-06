@@ -41,6 +41,10 @@ h2 {
     color: black;
 }
 
+#hits {
+    visibility: hidden;
+}
+
 .container {
     min-height: calc(100% - 2.25rem);
 
