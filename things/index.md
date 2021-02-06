@@ -8,7 +8,7 @@ We used to think of Telegram as a reliable and secure transmission medium for me
 
 tl;dr - inventing a private covert channel through users blacklisting each other.
 
-**More:** [medium/en,](https://medium.com/@labunskya/secret-telegrams-bdd2035b6e84) [habr/ru](https://habr.com/ru/post/451954)
+**More:** [medium/en](https://medium.com/@labunskya/secret-telegrams-bdd2035b6e84) [habr/ru](https://habr.com/ru/post/451954)
 
 [GitHub](https://github.com/LabunskyA/covertele)
 
@@ -38,7 +38,7 @@ tl;dr - using simple steganographic channels as internet traffic proxies and a M
 ## Introduction into steganographic data compression
 tl;dr - describing data compression techniques based on steganography encoding missed in more classic disciplines.
 
-**More:** [html/en](compression), [markdown/en](compression/index.md)
+**More:** [web/en](stego_compression), [web/ru](stego_compression/ru)
 
 ## About a strange data compression method
 Another user tries to write a new data piece to his hard drive, but there is no space left. He refuses to delete anything since ‘he will need it later’. What should we do in this situation?
@@ -52,7 +52,7 @@ tl;dr — trying to tell about strange data storage optimization technique using
 
 **More:**  [medium/en](https://medium.com/@labunskya/about-a-strange-data-compression-method-4d0d9d2e5714), [habr/ru](https://habr.com/ru/post/453332/)
 
-## domef5ar
+## f5ar
 
 My implementation of the data compression technique described above. Written in pure C and compatible with pretty much any Unix-like platform, it will allow you to hide any of your data into jpeg photos and pictures without any noticeable loss in them while saving on total occupied hard drive space.
 
@@ -74,7 +74,8 @@ A software parody for getting cute images written in a worst OOP design possible
 
 Now that's just a fun piece of software to mess around with.
 
-[GitHub](http://labunskya.github.io/getNya/)
+[Website](http://labunskya.github.io/getNya/)
+[GitHub](https://github.com/LabunskyA/getNya)
 
 ## Sabrina Online Reader
 
@@ -82,7 +83,9 @@ I like old-school web comics. And I like to read them as intended - through the 
 
 You can easily port it to any other web comic.
 
-[GitHub](https://labunskya.github.io/SabrinaOnlineReader/)
+[Website](https://labunskya.github.io/SabrinaOnlineReader/)
+[GitHub](https://github.com/LabunskyA/SabrinaOnlineReader)
+
 
 ## UsableVK
 
