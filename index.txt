@@ -5,7 +5,7 @@
     <img src="img/head.webp" alt="my favorite profile pic"/>
 </div>
 
-<div class="social">
+<div id="social">
     <div>
         <a href="mailto:me@labunsky.info"><img src="img/email.svg" alt="email me"/></a>
         <a href="https://t.me/LabunskyA"><img src="img/telegram.svg" alt="write me in Telegram"/></a>
@@ -20,7 +20,7 @@
     </div>
 </div>
 
-<div class="stuff">
+<div id="stuff">
     <a href="things">Things</a>
     <a href="running">Running, Shoes and the Tech</a>
     <a href="about">About</a>
