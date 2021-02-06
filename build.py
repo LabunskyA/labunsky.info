@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-import os, re, markdown, htmlmin
+import sys, os, re, time, markdown, htmlmin
+
 
 def read_file(path):
     with open(path, 'r') as file:
@@ -10,6 +11,7 @@ def process_css(path):
     if len(css) < 1024:
         return '<style>' + css + '</style>'
     return '<link rel="stylesheet" href="' + os.path.normpath(path) + '" type="text/css">'
+
 
 file_rules = {
     '.txt': { 
@@ -27,7 +29,20 @@ file_rules = {
 }
 
 
+start = time.time()
 template = None
+address = None
+sitemap = []
+
+if len(sys.argv) > 1:
+    protocol = 'https://'
+    if len(sys.argv) > 2:
+        protocol = sys.argv[2]
+    address = protocol + sys.argv[1] + '/'
+
+if address is not None:
+    print('Processing', address)
+
 with open(os.path.join('./', 'base', 'template.html')) as template_src:
     template = template_src.read()
 
@@ -35,17 +50,15 @@ for root, dirs, files in os.walk("./"):
     for filename in files:
         if '.conf' not in filename:
             continue
-        print('Found "{:s}"'.format(os.path.join(root, filename)))
+        print('found', os.path.normpath(os.path.join(root, filename)))
 
         config = {}
         with open(os.path.join(root, filename), 'r') as src:
             for line in src.read().splitlines():
                 if '=' not in line:
                     continue
-
                 tokens = line.split('=')
                 config[tokens[0]] = tokens[1]
-
 
         page = template
         for var in config:
@@ -59,3 +72,11 @@ for root, dirs, files in os.walk("./"):
             
         with open(os.path.join(root, filename.replace('.conf', '.html')), "w") as dest:
             dest.write(htmlmin.minify(page))
+        
+        if address is not None:
+            sitemap.append(address + os.path.normpath(os.path.join(root, filename.replace('.conf', '.html'))) )
+
+with open(os.path.join('.', 'sitemap.txt'), 'w') as sitemap_file:
+    sitemap_file.writelines(addr + '\n' for addr in sitemap)
+
+print('Done')
