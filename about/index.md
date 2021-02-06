@@ -5,3 +5,5 @@ I can read, speak and code freely in C, C++ Java, JavaScript (both client and se
 Currently self-employed trading commodity futures at [MOEX](https://www.moex.com). 3 years of trading, 5 years of software engeneering experience and counting. You can try to hire me, if you want to.
 
 Do not smoke and do not care about others smoking, but do occasionally drink a little alcohol. Enjoy running, roller skating, cycling and other physical activities as much as solving hard problems. Do not really care about money, status, fashion and other social leveling stuff.
+
+[Structured CV](cv)

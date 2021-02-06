@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="${LANG}">
     <head>
-        <meta charset="UTF-8">
-        
-        <title>${TITLE}</title>
+        <title>${TITLE} - Labunsky's</title>
+        <meta property="og:title" content="${TITLE}"/>
         <meta name="description" content="${DESCRIPTION}">
-
+        
+        <meta charset="UTF-8">
+        <meta property="og:type" content="article" />
         <meta name="viewport" content="width=device-width">
+        
         <link rel="shortcut icon" href="/img/favicon.png">
         <link rel="stylesheet" href="/base/styles.css" type="text/css">
         ${STYLES}
     </head>
 
     <body>
-        <div class="header">
+        <div id="header">
             <a id="hits" href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Flabunsky.info&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
             <a href="../">Back</a>
         </div>
 
-        <div class="container">
+        <div id="container">
             ${CONTENT}
         </div>
 
-        <div class="footer">buy me a <a href="https://ko-fi.com/labunsky">coffee</a><a></a></div>
+        <div id="footer">buy me a <a href="https://ko-fi.com/labunsky">coffee</a><a></a></div>
     </body>
 </html>

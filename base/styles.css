@@ -33,19 +33,19 @@ h2 {
     margin-bottom: .415em;
 }
 
-.header {
+#header {
     float: right;
 }
 
-.header a {
+#header a {
     color: black;
 }
 
 #hits {
-    visibility: hidden;
+    display: none;
 }
 
-.container {
+#container {
     min-height: calc(100% - 2.25rem);
 
     max-width: 90ch;
@@ -54,7 +54,7 @@ h2 {
     margin: auto;
 }
 
-.footer {
+#footer {
     margin: auto;
     text-align: center;
     padding-bottom: .5rem;

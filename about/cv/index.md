@@ -2,6 +2,7 @@
 - **Education**: Information Security Specialist (diploma after 5.5 years, [ISCED level 7](http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf)), Saratov State University, Russia
 - **Fields of research**
   - steganography methods and applications (and very unusual ones)
+  - covert channels
   - extensive data protection techniques
   - decentralized networks and protocols
 - **Programming-related skills**
@@ -21,12 +22,15 @@
     - UI stuff like html and css, Java Swing and Android layouts
     - many other things I just did not remember at the time
   - not really a programming skill, but I used to create trading strategies
+- **Finance skills**
+  - Trading commodities derivatives
+  - Hedging strategies (from cryptocurrency mining and smart contracts revenue)
+  - Arbitrage
+  - Mid- and short-term trading strategies
 - **Other qualities**
   - stress resistant
   - honest and straightforward
-  - consistent
-  - prefer a good life over good money
-  - and UNIX over any other OS
+  - prefer a good life over the money
   - enjoy solving and optimizing interesting problems, even simple ones
   - have a pretty good understanding of modern markets and economy in general
-  - in good physical shape (**really** love running and inline skates)
+  - in good physical shape (**really** love athletics)
