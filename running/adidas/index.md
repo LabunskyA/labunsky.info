@@ -13,12 +13,12 @@ Frequent clearances provide pretty good price/quality ratio for the most shoes. 
 - **Boost** - a bit overhyped 'energy-returning' midsole, good for basic training and casual walking; 
 - **Continental** - tire-branded rubber on the outsoles with great grip on any asphalt-like surface;
 - **Torsion system** - plastic propulsion plates to give you additional snap and stability;
-- **LEP** - Little Extra Push - smaller propulsion mechanism with a little bit of a snap;
-- **Lightstrike** - light EVA midsole usually used with propulsion plates;
+- **LEP** - **Little Extra Push** - smaller propulsion mechanism with a little bit of a snap;
+- **LightStrike** - light EVA midsole usually used with propulsion plates;
 - **Boost HD** - new iteration of boost, firmer and better suitable for running;
 - **AlphaBounce** - midsole with no real purpose in life;
 - **Adidas 4D** - 3D printed premium midsole with a curve to it;
-- **Celermesh** - very breathable but fragile seamless mesh upper.
+- **CelerMesh** - very breathable but fragile seamless mesh upper.
 
 ## Shoes to consider
 
@@ -40,6 +40,6 @@ Frequent clearances provide pretty good price/quality ratio for the most shoes. 
 - No technical information for the most shoes in the catalog;
 - Budget shoes are mediocre at the very best.
 
-## Verdict 
+## Verdict
 
-Good running shoes if you know what to get, a pricey gamble otherwise.
+Good running shoes if you know what you are going to get, but a pricey gamble otherwise.

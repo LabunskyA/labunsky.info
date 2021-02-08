@@ -74,7 +74,11 @@ for root, dirs, files in os.walk("./"):
             dest.write(htmlmin.minify(page))
         
         if address is not None:
-            sitemap.append(address + os.path.normpath(os.path.join(root, filename.replace('.conf', '.html'))) )
+            rel_link = root if 'index.' in filename else os.path.join(root, filename.replace('.conf', '.html'))
+            link = address + os.path.normpath(rel_link)
+            if link[len(link)-1] == '.':
+                link = link[:len(link)-2]
+            sitemap.append(link)
 
 with open(os.path.join('.', 'sitemap.txt'), 'w') as sitemap_file:
     sitemap_file.writelines(addr + '\n' for addr in sitemap)

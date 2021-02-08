@@ -8,7 +8,7 @@ There is a clear look influence from their lifestyle shoes. More tech equals biz
 
 Being a Nike subordinate the pricing is not all that good. But they have pretty much permanent -50% sale on their online shop and clearances with even lower in other shops. Even with that their shoes may seem a little bit too pricey compared to bargains from Skechers, for example. Top models still more affordable on a consistent basis.
 
-**Technology:**
+## Technology
 
 - **NITRO** - super-critical nitrogen-injected EVA foam (think Skechers Hyper Burst);
 - **XETIC** - new EVA midsole, half-empty with MIT-calculated pattern to evenly distribute and return step energy;
@@ -21,24 +21,25 @@ Being a Nike subordinate the pricing is not all that good. But they have pretty 
 - **SpeedTracktion** - outsole pattern oriented on the forefoot strikers;
 - **SoftFoam** - soft insole material, similar to Skechers memory foam.
 
-**Shoes to consider:** 
+## Shoes to consider
 
 - **Deviate Nitro** - great foam and carbon plate for a reasonable price;
 - **Speed 600** - caged NRGY beads with propulsion as a good daily trainer;
 - **Hybrid Runner** - full neutral HYBRID midsole with nice grippy outsole.
 
-**The Good:** 
+## The Good
 
 - Fun to try on and explore - very different shoe design to other companies;
 - Very nice mid-upper durability and materials overall;
 - Rather versatile - you are not limited to treadmill or asphalt;
 - Consistent sizing between the models.
 
-**The Bad:** 
+## The Bad 
 
 - Little to no info on stack height, drop and what you can find is not always true;
 - Lack of shoe reviews from a runners perspective;
 - Initial sizing issues - you need to try it on before buying;
 - Top shoes tend to be a bit too heavy for women and lighter runners.
 
-**Verdict:** Fun experiments come with price.
+## Verdict
+Fun experiments.
