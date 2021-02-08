@@ -35,7 +35,7 @@ tl;dr - using simple steganographic channels as internet traffic proxies and a M
 [GitHub](https://github.com/LabunskyA/StegoProxy)
 
 
-## Introduction into steganographic data compression
+## Steganographic data compression
 tl;dr - describing data compression techniques based on steganography encoding missed in more classic disciplines.
 
 **More:** [web/en](stego_compression), [web/ru](stego_compression/ru)
