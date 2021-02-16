@@ -48,10 +48,12 @@ with open(os.path.join('./', 'base', 'template.html')) as template_src:
 
 for root, dirs, files in os.walk("./"):
     for filename in files:
+        # Skip useless for us files
         if '.conf' not in filename:
             continue
         print('found', os.path.normpath(os.path.join(root, filename)))
 
+        # Initialize and read the config file
         config = {}
         with open(os.path.join(root, filename), 'r') as src:
             for line in src.read().splitlines():
@@ -60,19 +62,24 @@ for root, dirs, files in os.walk("./"):
                 tokens = line.split('=')
                 config[tokens[0]] = tokens[1]
 
+        # Create a page from the template
         page = template
+        # Config variables
         for var in config:
             page = page.replace("${{{:s}}}".format(var.upper()), config[var])
+        # File rules
         for ext in file_rules:
             path = os.path.join(root, filename.replace('.conf', ext))
             if os.path.exists(path):
                 page = page.replace(file_rules[ext]['tag'], file_rules[ext]['preprocess'](path))
+        # Leftovers, unused tags
         for tag in re.findall('\$\{(.*?)\}', page):
             page = page.replace('${' + tag + '}', '');
             
         with open(os.path.join(root, filename.replace('.conf', '.html')), "w") as dest:
             dest.write(htmlmin.minify(page))
         
+        # Add a link to the sitemap
         if address is not None:
             rel_link = root if 'index.' in filename else os.path.join(root, filename.replace('.conf', '.html'))
             link = address + os.path.normpath(rel_link)

@@ -8,25 +8,25 @@ For an average consumer all of that really should not matter though. That is why
 
 ## Shoes to consider
 
-- Streak - my favorite. Everything is good here, try one if you can;
-- Infinity Run - good and durable everyday shoe which promotes forefoot strike;
-- Pegasus Turbo - very good shoe, but way to expensive. Try looking for it on a clearance.
+- **Streak** - my favorite. Everything is good here, try one if you can;
+- **Infinity Run** - good and durable everyday shoe which promotes forefoot strike;
+- **Pegasus Turbo** - very good shoe, but way to expensive. Try looking for it on a clearance.
 
 ## Technology
 
-- Zoom - EVA-based foam with pretty basic feel to it;
-- ZoomX - Pebax-based foam, very springy and comfy, almost cloud-like;
-- Zoom Air - pressured air bag used to distribute weight without losing both cushion and structure;
-- React - combination of TPE and EVA as a compromise between weight and durability/cushioning;
-- Joyride - beaded TPE (?) combined with simple EVA foam for no real life purpose;
-- Flywire - old (2008+) upper material used as a durable and supportive solution in everyday shoes;
-- Flyknit / AtomKnit - light knitted upper used in top shoes;
-- Plates - carbon ones in top marathon (Vaporfly, Alphafly) and plastic ones in racing (Streak) shoes.
+- **Zoom** - EVA-based foam with pretty basic feel to it;
+- **ZoomX** - Pebax-based foam, very springy and comfy, almost cloud-like;
+- **Zoom Air** - pressured air bag used to distribute weight without losing both cushion and structure;
+- **React** - combination of TPE and EVA as a compromise between weight and durability/cushioning;
+- **Joyride** - beaded TPE (?) combined with simple EVA foam for no real life purpose;
+- **Flywire** - old (2008+) upper material used as a durable and supportive solution in everyday shoes;
+- **Flyknit / AtomKnit** - light knitted upper used in top shoes;
+- **Plates** - carbon ones in top marathon (Vaporfly, Alphafly) and plastic ones in racing (Streak) shoes.
 
 ## The Good 
 
-- No *really bad* shoes - every one is suitable for comfortable running experience;
-- Consistent performance from shoe to shoe;
+- No *really bad* shoes - every one is more than suitable for a comfortable running experience;
+- Consistent performance from shoe to shoe in any line - you know what to expect in the new iteration;
 - You can try some new technologies before mass adoption.
 
 ## The Bad
@@ -37,4 +37,3 @@ For an average consumer all of that really should not matter though. That is why
 
 ## Verdict
 A go-to running shoe company for an average Joe with money to spare or a professional athlete.
-
