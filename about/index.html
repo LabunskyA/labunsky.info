@@ -58,7 +58,7 @@
                 time_spent.open("POST", "https://labunsky-info-meta.azurewebsites.net/visits", true);
                 time_spent.setRequestHeader('Content-Type', 'application/json');
 
-                visits[url].time_spent = elapsed_time / 1000;
+                visits[url].time_spent = elapsed_time;
                 time_spent.send(JSON.stringify({
                     url: url,
                     type: 'close',
