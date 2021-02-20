@@ -53,7 +53,7 @@
                 type: type
             }));
 
-            window.onunload = function() {
+            window.onbeforeunload = function() {
                 const time_spent = new XMLHttpRequest();
                 time_spent.open("POST", "https://labunsky-info-meta.azurewebsites.net/visits", true);
                 time_spent.setRequestHeader('Content-Type', 'application/json');
@@ -61,12 +61,14 @@
                 visits[url].time_spent = elapsed_time / 1000;
                 time_spent.send(JSON.stringify({
                     url: url,
+                    type: 'close',
                     time_spent: visits[url].time_spent
                 }));
 
                 // Save for later
                 localStorage['visits'] = JSON.stringify(visits);
             };
+            window.onhashchange = window.onbeforeunload;
         </script>
     </head>
 
