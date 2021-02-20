@@ -55,7 +55,7 @@
                 type: type
             }));
 
-            window.onbeforeunload = function() {
+            window.onunload = function() {
                 const time_spent = new XMLHttpRequest();
                 time_spent.open("POST", "https://labunsky-info-meta.azurewebsites.net/visits", true);
                 time_spent.setRequestHeader('Content-Type', 'application/json');
