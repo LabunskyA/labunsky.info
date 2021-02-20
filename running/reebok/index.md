@@ -14,7 +14,7 @@ Only Reebok can sell you Pebax midsole for as low as $50 on a clearance. And the
 - **ZIG** - more of a lifestyle EVA in a zig-zag pattern;
 - **Liquifect** - gel (think Asics) under a regular EVA;
 - **FuelFoam** - base EVA midsole material with nothing fancy in it;
-- **Flexweave** - upper material to withstand anything being cool and light at the same time. 
+- **Flexweave** - upper material to withstand anything, cool and light at the same time.
 
 ## Shoes to consider
 
