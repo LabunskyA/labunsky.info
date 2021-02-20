@@ -29,12 +29,8 @@
 
 
             const visit = new XMLHttpRequest();
+            visit.open("POST", "https://labunsky-info-meta.azurewebsites.net/visits", true);
             visit.setRequestHeader('Content-Type', 'application/json');
-            visit.open(
-                "POST", 
-                "https://labunsky-info-meta.azurewebsites.net/visits", 
-                true
-            );
 
             if (!localStorage['visits'])
                 localStorage['visits'] = {};
@@ -59,13 +55,8 @@
 
             window.onbeforeunload = function() {
                 const time_spent = new XMLHttpRequest();
-
+                time_spent.open("POST", "https://labunsky-info-meta.azurewebsites.net/visits", true);
                 time_spent.setRequestHeader('Content-Type', 'application/json');
-                time_spent.open(
-                    "POST", 
-                    "https://labunsky-info-meta.azurewebsites.net/visits", 
-                    true
-                );
 
                 time_spent.send(JSON.stringify({
                     url: url,
