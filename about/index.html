@@ -1,1 +1,94 @@
-<!DOCTYPE html><html lang=en> <head><title>About - Labunsky's</title><meta property=og:title content=About><meta name=description content="About Labunsky."><meta charset=UTF-8><meta property=og:type content=article><meta name=viewport content="width=device-width"><link rel="shortcut icon" href=/img/favicon.png><link rel=stylesheet href=/base/styles.css type=text/css></head> <body> <div id=header> <a id=hits href=https://hits.seeyoufarm.com><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Flabunsky.info&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"></a> <a href=../ >Back</a> </div> <div id=container> <p>Graduated from <a href=https://www.sgu.ru/en>Saratov State University</a> after five and a half years of education as an <a href=http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf>ISCED level 7</a> Information Security Specialist. My fields of research are mostly somewhere around steganography and applications, excessive data protection techniques, decentralized protocols, and effective programming.</p> <p>I can read, speak and code freely in C, C++ Java, JavaScript (both client and server sides) and Python. Capable of understanding and using some other languages, like Assembly, Go, Bash and more high-level languages with reference and a bit of practice. Do believe in my knowledge on complex algorithms and data structures. Other programming-related skills include but not limited to: working with crypto-currencies, with databases using little or no-SQL, writing effective multi-threaded applications and a passion to optimize things no one cared about.</p> <p>Currently self-employed trading commodity futures at <a href=https://www.moex.com>MOEX</a>. 3 years of trading, 5 years of software engeneering experience and counting. You can try to hire me, if you want to.</p> <p>Do not smoke and do not care about others smoking, but do occasionally drink a little alcohol. Enjoy running, roller skating, cycling and other physical activities as much as solving hard problems. Do not really care about money, status, fashion and other social leveling stuff.</p> <p><a href=cv>Structured CV</a></p> </div> <div id=footer>buy me a <a href=https://ko-fi.com/labunsky>coffee</a><a></a></div> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>About - Labunsky's</title>
+        <meta property="og:title" content="About"/>
+        <meta name="description" content="About Labunsky.">
+        
+        <meta charset="UTF-8">
+        <meta property="og:type" content="article" />
+        <meta name="viewport" content="width=device-width">
+        
+        <link rel="shortcut icon" href="/img/favicon.png">
+        <link rel="stylesheet" href="/base/styles.css" type="text/css">
+        
+
+        <script>
+            let startDate = new Date();
+            let elapsed_time = 0;
+
+            const elapse_time = function() {
+                const endDate = new Date();
+                const spentTime = endDate.getTime() - startDate.getTime();
+                elapsed_time += spentTime;
+            };
+
+            window.addEventListener('blur', elapse_time);
+            window.addEventListener('beforeunload', elapse_time);
+            window.addEventListener('focus', function() { startDate = new Date(); });
+
+
+            const visit = new XMLHttpRequest();
+            visit.setRequestHeader('Content-Type', 'application/json');
+            visit.open(
+                "POST", 
+                "https://labunsky-info-meta.azurewebsites.net/visits", 
+                true
+            );
+
+            if (!localStorage['visits'])
+                localStorage['visits'] = {};
+            let visits = localStorage['visits'];
+
+            const url = window.location.pathname;
+            let type;
+            switch(visits[url]) {
+                case undefined: {
+                    visits[url] = {};
+                    type = 'unique';
+                } break;
+
+                default:
+                    type = 'recurring';
+            }
+
+            visit.send(JSON.stringify({
+                url: url,
+                type: type
+            }));
+
+            window.onbeforeunload = function() {
+                const time_spent = new XMLHttpRequest();
+
+                time_spent.setRequestHeader('Content-Type', 'application/json');
+                time_spent.open(
+                    "POST", 
+                    "https://labunsky-info-meta.azurewebsites.net/visits", 
+                    true
+                );
+
+                time_spent.send(JSON.stringify({
+                    url: url,
+                    time_spent: elapsed_time / 1000
+                }));
+            };
+        </script>
+    </head>
+
+    <body>
+        <div id="header">
+            <a id="hits" href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Flabunsky.info&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+            <a href="../">Back</a>
+        </div>
+
+        <div id="container">
+            <p>Graduated from <a href="https://www.sgu.ru/en">Saratov State University</a> after five and a half years of education as an <a href="http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf">ISCED level 7</a> Information Security Specialist. My fields of research are mostly somewhere around steganography and applications, excessive data protection techniques, decentralized protocols, and effective programming.</p>
+<p>I can read, speak and code freely in C, C++ Java, JavaScript (both client and server sides) and Python. Capable of understanding and using some other languages, like Assembly, Go, Bash and more high-level languages with reference and a bit of practice. Do believe in my knowledge on complex algorithms and data structures. Other programming-related skills include but not limited to: working with crypto-currencies, with databases using little or no-SQL, writing effective multi-threaded applications and a passion to optimize things no one cared about.</p>
+<p>Currently self-employed trading commodity futures at <a href="https://www.moex.com">MOEX</a>. 3 years of trading, 5 years of software engeneering experience and counting. You can try to hire me, if you want to.</p>
+<p>Do not smoke and do not care about others smoking, but do occasionally drink a little alcohol. Enjoy running, roller skating, cycling and other physical activities as much as solving hard problems. Do not really care about money, status, fashion and other social leveling stuff.</p>
+<p><a href="cv">Structured CV</a></p>
+        </div>
+
+        <div id="footer">buy me a <a href="https://ko-fi.com/labunsky">coffee</a><a></a></div>
+    </body>
+</html>

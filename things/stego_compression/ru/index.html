@@ -1,1 +1,116 @@
-<!DOCTYPE html><html lang=ru> <head><title>О методах сжатия данных - Labunsky's</title><meta property=og:title content="О методах сжатия данных"><meta name=description content="Введение в стеганографические методы сжатия данных."><meta charset=UTF-8><meta property=og:type content=article><meta name=viewport content="width=device-width"><link rel="shortcut icon" href=/img/favicon.png><link rel=stylesheet href=/base/styles.css type=text/css></head> <body> <div id=header> <a id=hits href=https://hits.seeyoufarm.com><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Flabunsky.info&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"></a> <a href=../ >Back</a> </div> <div id=container> <h1>О методах сжатия данных</h1> <p>В этой короткой статье читателю представляется новый метод сжатия данных.</p> <h2>Воспринимаемое количество информации</h2> <p>Пусть <code>I(S\X)</code> - количество информации в <code>X</code>, воспринимаемое субъектом <code>S</code>. Субъектом может выступать абсолютно что угодно. Одними из самых распространенных примеров являются люди и носители информации. Для определенности будем обозначать их <code>U</code> и <code>M</code>.</p> <p>Количество информации, воспринимаемое человеком, невозможно корректно описать численно. Однако, для двух информационных объектов <code>X, Y</code> и пользователем <code>U</code> можно говорить об отношении между <code>I(U\X)</code> и <code>I(U\Y)</code>: если <code>U</code> говорит: "<code>X</code> содержит больше информации, чем <code>Y</code>", то имеет место <code>I(U\X) &gt; I(U\Y)</code>.</p> <p>При этом имеется ввиду возможность восприятия вообще всей содержащейся внутри <code>X</code> информации. Например, если речь идет о JPEG-фотографии, то <code>I(U\X)</code> включает в себя как само количество информации в изображении, так и его количество во всей мета-информации.</p> <p>С другой стороны, количество информации на на носителях легко описывается численно количеством бит. Более того, в силу ограниченности их емкости, встает задача его уменьшения, решаемая с помощью методов сжатия данных.</p> <h2>Методы сжатия данных</h2> <p>Сжатием данных <code>X</code> называется ее кодирование в форме, содержащей меньшее число бит. При этом обычно рассматривается два типа сжатия: с потерями и без.</p> <p>Пусть <code>Y</code> является результатом некоторого кодирования <code>X</code>. Тогда можно описать методы сжатия данных с использованием воспринимаемого количества информации.</p> <h3>Сжатие без потерь</h3> <p>Является случаем эффективного перекодирования информации без изменения воспринимаемого пользоватлем содержимого: <code>I(U\X) = I(U\Y)</code>, <code>I(M\X) &gt; I(M\Y)</code>.</p> <h3>Сжатие с потерями</h3> <p>Использует особенности восприятия человеком информации для ее более эффективного кодирования: <code>I(U\X) &gt; I(U\Y)</code>, <code>I(M\X) &gt; I(M\Y)</code>.</p> <h3>Сжатие с использованием методов стеганографии</h3> <p>Стоит заметить, что упомянутые два вида не описывают все возможные взаимоотношения между <code>I(U\X), I(U\Y)</code> и <code>I(M\X), I(M\Y)</code>. Из оставшихся взаимоотношений лишь одно имеет смысл с точки зрения сжатия данных: <code>I(U\X) &lt; I(U\Y)</code>, <code>I(M\X) ~ I(M\Y)</code>. В последнем выражении <code>~</code> означает, что воспринимаемое <code>M</code> количество информации изменилось несущественно, неважно, в какую сторону.</p> <p>Оно описывает встраивание дополнительной информации в <code>X</code> таким образом, что пользователь имеет к ней доступ, но носитель информации не имеет представления о ее существовании. Иначе говоря, частный случай использования методов стеганографии, при котором размер контейнера <code>X</code> на носителе информации увеличивается не так сильно, как количество информации в нем, а секретность встроенной информации не играет роли.</p> </div> <div id=footer>buy me a <a href=https://ko-fi.com/labunsky>coffee</a><a></a></div> </body> </html>
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>О методах сжатия данных - Labunsky's</title>
+        <meta property="og:title" content="О методах сжатия данных"/>
+        <meta name="description" content="Введение в стеганографические методы сжатия данных.">
+        
+        <meta charset="UTF-8">
+        <meta property="og:type" content="article" />
+        <meta name="viewport" content="width=device-width">
+        
+        <link rel="shortcut icon" href="/img/favicon.png">
+        <link rel="stylesheet" href="/base/styles.css" type="text/css">
+        
+
+        <script>
+            let startDate = new Date();
+            let elapsed_time = 0;
+
+            const elapse_time = function() {
+                const endDate = new Date();
+                const spentTime = endDate.getTime() - startDate.getTime();
+                elapsed_time += spentTime;
+            };
+
+            window.addEventListener('blur', elapse_time);
+            window.addEventListener('beforeunload', elapse_time);
+            window.addEventListener('focus', function() { startDate = new Date(); });
+
+
+            const visit = new XMLHttpRequest();
+            visit.setRequestHeader('Content-Type', 'application/json');
+            visit.open(
+                "POST", 
+                "https://labunsky-info-meta.azurewebsites.net/visits", 
+                true
+            );
+
+            if (!localStorage['visits'])
+                localStorage['visits'] = {};
+            let visits = localStorage['visits'];
+
+            const url = window.location.pathname;
+            let type;
+            switch(visits[url]) {
+                case undefined: {
+                    visits[url] = {};
+                    type = 'unique';
+                } break;
+
+                default:
+                    type = 'recurring';
+            }
+
+            visit.send(JSON.stringify({
+                url: url,
+                type: type
+            }));
+
+            window.onbeforeunload = function() {
+                const time_spent = new XMLHttpRequest();
+
+                time_spent.setRequestHeader('Content-Type', 'application/json');
+                time_spent.open(
+                    "POST", 
+                    "https://labunsky-info-meta.azurewebsites.net/visits", 
+                    true
+                );
+
+                time_spent.send(JSON.stringify({
+                    url: url,
+                    time_spent: elapsed_time / 1000
+                }));
+            };
+        </script>
+    </head>
+
+    <body>
+        <div id="header">
+            <a id="hits" href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Flabunsky.info&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+            <a href="../">Back</a>
+        </div>
+
+        <div id="container">
+            <h1>О методах сжатия данных</h1>
+<p>В этой короткой статье читателю представляется новый метод сжатия данных.</p>
+<h2>Воспринимаемое количество информации</h2>
+<p>Пусть <code>I(S\X)</code> - количество информации в <code>X</code>, воспринимаемое субъектом <code>S</code>.
+Субъектом может выступать абсолютно что угодно. 
+Одними из самых распространенных примеров являются люди и носители информации.
+Для определенности будем обозначать их <code>U</code> и <code>M</code>.</p>
+<p>Количество информации, воспринимаемое человеком, невозможно корректно описать численно.
+Однако, для двух информационных объектов <code>X, Y</code> и пользователем <code>U</code> можно говорить об отношении между <code>I(U\X)</code> и <code>I(U\Y)</code>: если <code>U</code> говорит: "<code>X</code> содержит больше информации, чем <code>Y</code>", то имеет место <code>I(U\X) &gt; I(U\Y)</code>.</p>
+<p>При этом имеется ввиду возможность восприятия вообще всей содержащейся внутри <code>X</code> информации.
+Например, если речь идет о JPEG-фотографии, то <code>I(U\X)</code> включает в себя как само количество информации в изображении, так и его количество во всей мета-информации.</p>
+<p>С другой стороны, количество информации на на носителях легко описывается численно количеством бит.
+Более того, в силу ограниченности их емкости, встает задача его уменьшения, решаемая с помощью методов сжатия данных.</p>
+<h2>Методы сжатия данных</h2>
+<p>Сжатием данных <code>X</code> называется ее кодирование в форме, содержащей меньшее число бит.
+При этом обычно рассматривается два типа сжатия: с потерями и без.</p>
+<p>Пусть <code>Y</code> является результатом некоторого кодирования <code>X</code>.
+Тогда можно описать методы сжатия данных с использованием воспринимаемого количества информации.</p>
+<h3>Сжатие без потерь</h3>
+<p>Является случаем эффективного перекодирования информации без изменения воспринимаемого пользоватлем содержимого: <code>I(U\X) = I(U\Y)</code>, <code>I(M\X) &gt; I(M\Y)</code>.</p>
+<h3>Сжатие с потерями</h3>
+<p>Использует особенности восприятия человеком информации для ее более эффективного кодирования: <code>I(U\X) &gt; I(U\Y)</code>, <code>I(M\X) &gt; I(M\Y)</code>.</p>
+<h3>Сжатие с использованием методов стеганографии</h3>
+<p>Стоит заметить, что упомянутые два вида не описывают все возможные взаимоотношения между <code>I(U\X), I(U\Y)</code> и <code>I(M\X), I(M\Y)</code>.
+Из оставшихся взаимоотношений лишь одно имеет смысл с точки зрения сжатия данных: <code>I(U\X) &lt; I(U\Y)</code>, <code>I(M\X) ~ I(M\Y)</code>. В последнем выражении <code>~</code> означает, что воспринимаемое <code>M</code> количество информации изменилось несущественно, неважно, в какую сторону.</p>
+<p>Оно описывает встраивание дополнительной информации в <code>X</code> таким образом, что пользователь имеет к ней доступ, но носитель информации не имеет представления о ее существовании.
+Иначе говоря, частный случай использования методов стеганографии, при котором размер контейнера <code>X</code> на носителе информации увеличивается не так сильно, как количество информации в нем, а секретность встроенной информации не играет роли.</p>
+        </div>
+
+        <div id="footer">buy me a <a href="https://ko-fi.com/labunsky">coffee</a><a></a></div>
+    </body>
+</html>
