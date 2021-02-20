@@ -14,20 +14,7 @@
         
 
         <script>
-            let startDate = new Date();
-            let elapsed_time = 0;
-
-            const elapse_time = function() {
-                const endDate = new Date();
-                const spentTime = endDate.getTime() - startDate.getTime();
-                elapsed_time += spentTime;
-            };
-
-            window.addEventListener('blur', elapse_time);
-            window.addEventListener('beforeunload', elapse_time);
-            window.addEventListener('focus', function() { startDate = new Date(); });
-
-
+            const url = window.location.pathname;
             const visit = new XMLHttpRequest();
             visit.open("POST", "https://labunsky-info-meta.azurewebsites.net/visits", true);
             visit.setRequestHeader('Content-Type', 'application/json');
@@ -36,7 +23,6 @@
                 localStorage['visits'] = '{}';
             let visits = JSON.parse(localStorage['visits']);
 
-            const url = window.location.pathname;
             let type;
             switch(visits[url]) {
                 case undefined: {
@@ -52,23 +38,6 @@
                 url: url,
                 type: type
             }));
-
-            window.onbeforeunload = function() {
-                const time_spent = new XMLHttpRequest();
-                time_spent.open("POST", "https://labunsky-info-meta.azurewebsites.net/visits", true);
-                time_spent.setRequestHeader('Content-Type', 'application/json');
-
-                visits[url].time_spent = elapsed_time;
-                time_spent.send(JSON.stringify({
-                    url: url,
-                    type: 'close',
-                    time_spent: visits[url].time_spent
-                }));
-
-                // Save for later
-                localStorage['visits'] = JSON.stringify(visits);
-            };
-            window.onhashchange = window.onbeforeunload;
         </script>
     </head>
 
