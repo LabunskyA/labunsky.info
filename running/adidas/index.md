@@ -1,12 +1,12 @@
 # Adidas
 
-Good traditional and light training shoes. You know them. They have all of them: road, trail and spikes. What else do a runner need?
+Good traditional and light training shoes. You know them. They have all of them: road, trail, and spikes. What else does a runner need?
 
-That being said, there is a lot of hit or miss shoes on their shelf. But if with some brands you’d can determine bad and good ones based on tech, stats and basic appearance, this is not the case with Adidas. Most of their shoes are complex combinations of different technology unique to the shoe. If you’ve never tried one - you can’t be sure.
+That being said, there are a lot of hit or miss shoes on their shelf. But if with some brands you’d determine bad and good ones based on tech, stats, and basic appearance, this is not the case with Adidas. Most of their shoes are complex combinations of different technology unique to the shoe. If you’ve never tried one - you can’t be sure.
 
-But the tech itself is good. One of the best, to be honest. Propulsion plates? They have it. Expanded TPU? They basically invented it. Composite midsoles? Like every single shoe. Tire-level rubber on the outsoles? Continental has your back. The only downside is every single piece adding to the price tag. Not as much as Nikes, but never the less.
+But the tech itself is good. One of the best, to be honest. Propulsion plates? They have it. Expanded TPU? They invented it. Composite midsoles? Like every single shoe. Tire-level rubber on the outsoles? Continental has your back. The only downside is every single piece adding to the price tag. Not as much as Nikes, but never the less.
 
-Frequent clearances provide pretty good price/quality ratio for the most shoes. Just try them on before buying and avoid blind online purchases.
+Frequent clearances provide a pretty good price/quality ratio for most shoes. Just try them on before buying and avoid blind online purchases.
 
 ## Technology
 
@@ -15,7 +15,7 @@ Frequent clearances provide pretty good price/quality ratio for the most shoes. 
 - **Torsion system** - plastic propulsion plates to give you additional snap and stability;
 - **LEP** - **Little Extra Push** - smaller propulsion mechanism with a little bit of a snap;
 - **LightStrike** - light EVA midsole usually used with propulsion plates;
-- **Boost HD** - new iteration of boost, firmer and better suitable for running;
+- **Boost HD** - a new iteration of boost, firmer and better suitable for running;
 - **AlphaBounce** - midsole with no real purpose in life;
 - **Adidas 4D** - 3D printed premium midsole with a curve to it;
 - **CelerMesh** - very breathable but fragile seamless mesh upper.
@@ -37,7 +37,7 @@ Frequent clearances provide pretty good price/quality ratio for the most shoes. 
 
 - Quality varies greatly between both different shoes and iterations;
 - Non-Continental outsoles usually are crap;
-- No technical information for the most shoes in the catalog;
+- No technical information for most shoes in the catalog;
 - Budget shoes are mediocre at the very best.
 
 ## Verdict

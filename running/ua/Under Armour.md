@@ -1,17 +1,17 @@
 # Under Armour
 
-A dark horse in the running shoes market. Not much reviews, promotions, pro and celebrity runners. Nothing. And, after trying their shoes, I might - that's just too bad. 
+A dark horse in the running shoe market. Not many reviews, promotions, pro and celebrity runners. Nothing. And, after trying their shoes, I might - that's just too bad. 
 
-It's hard to describe their shoes. They look modern, sometimes even edgy (just look at the HOVR Phantom). But they feel so... classic. A lot of rubber, beefy upper, thick laces (actually great), aggressive outsole pattern. Weighs a lot as well - 300+ grams today is a lot for a '*fast*' running shoe. But... They are great. Geometry,  weight distribution, outsole patterns and *foams* are so great, it's mind boggling. What is the purpose?
+It's hard to describe their shoes. They look modern, sometimes even edgy (just look at the HOVR Phantom). But they feel so... classic. A lot of rubber, beefy upper, thick laces (actually great), aggressive outsole pattern. Weighs a lot as well - 300+ grams today is a lot for a '*fast*' running shoe. But... They are great. Geometry,  weight distribution, outsole patterns, and *foams* are so great, it's mind-boggling. What is the purpose?
 
-For a daily trainers they are too expensive. 
+For daily trainers, they are too expensive. 
 
-Some of their shoes are smart. They can track your stride, angle, distance and cadence precisely. I found out my regular GPS was lying, making me 10% to 20% slower. And you can record everything without your phone - the shoe itself has enough storage to track and save your runs independently. Personal training in free yearly MVP with MapMyRun (owned by UA) is helpful, but not really personalized at the moment. So it is hit or miss.
+Some of their shoes are smart. They can track your stride, angle, distance, and cadence precisely. I found out my regular GPS was lying, making me 10% to 20% slower. And you can record everything without your phone - the shoe itself has enough storage to track and save your runs independently. Personal training in free yearly MVP with MapMyRun (owned by UA) is helpful, but not personalized at the moment. So it is hit or miss.
 
 ## Technology
 
 - **HOVR** - strange proprietary midsole material with olefin. My favorite midsole on the market;
-- **FLOW** - new iteration of MicroG blended with Charged. Lower stack, good road feel. Not a great traction compared to rubber;
+- **FLOW** - a new iteration of MicroG blended with Charged. Lower stack, good road feel. Not a great traction compared to rubber;
 - **Charged Foam** - dual-density molded EVA midsole with softer forefoot;
 - **Liquify** - gel foam wrapped in TPU film
 - **Micro G** - cool blend of EVA and rubber, lower stack and more durable;
@@ -24,7 +24,7 @@ Some of their shoes are smart. They can track your stride, angle, distance and c
 
 ## Shoes to consider
 
-- **HOVR Machina** - innovative, but very oldscool shoe you need to try out;
+- **HOVR Machina** - innovative, but very oldskool shoe you need to try out;
 - **HOVR Sonic 3** - best 'smart' everyday shoe there is;
 - **Brigade XC ** - cross-country shoe with Pebax plate and Michelin outsole.
 

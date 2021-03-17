@@ -2,11 +2,11 @@
 
 The most technological shoes out there? May as well be. If you talking about quantity, at least.
 
-Like Adidas, they like to invent and mix things together with no particular reason, but prefer to do it in consumer-oriented shoes, not professional ones. In fact, there is no professional *running* shoes from them, if you do not count spikes. Which is actually good for us, as most of us will never run in a serious competition. And even if you want to try participating in one - you totally could do it in Pumas, just need to find a lighter model with heel drop under 12mm (yes, it is that big on some of them).
+Like Adidas, they like to invent and mix things for no particular reason, but prefer to do it in consumer-oriented shoes, not professional ones. There is no professional *running* shoes from them if you do not count spikes. This is good for us, as most of us will never run into serious competition. And even if you want to try participating in one - you totally could do it in Pumas, just need to find a lighter model with heel drop under 12mm (yes, it is that big on some of them).
 
-There is a clear look influence from their lifestyle shoes. More tech equals bizarre appearance with brave color palettes and decor elements. Vibrant colors and distinguished elements create very sporty and *fast* looking shoes. I was quite worried at first looking at all this after minimalist shoes from other brands and thinking: 'What a mess'. But no. Lacing is solid, upper is meshy, heels are comfy and fixating, nothing seems to be out of place.
+There is a clear look influence from their lifestyle shoes. More tech equals bizarre appearance with brave color palettes and decor elements. Vibrant colors and distinguished elements create very sporty and *fast* looking shoes. I was quite worried at first looking at all this after minimalist shoes from other brands and thinking: 'What a mess'. But no. The lacing is solid, the upper is meshy, heels are comfy and fixating, nothing seems to be out of place.
 
-Being a Nike subordinate the pricing is not all that good. But they have pretty much permanent -50% sale on their online shop and clearances with even lower in other shops. Even with that their shoes may seem a little bit too pricey compared to bargains from Skechers, for example. Top models still more affordable on a consistent basis.
+Being a Nike subordinate the pricing is not all that good. But they have pretty much permanent -50% sale on their online shop and clearances with even lower in other shops. Even with that, their shoes may seem a little bit too pricey compared to bargains from Skechers, for example. Top models still more affordable consistently.
 
 ## Technology
 
@@ -25,7 +25,7 @@ Being a Nike subordinate the pricing is not all that good. But they have pretty 
 
 - **Deviate Nitro** - great foam and carbon plate for a reasonable price;
 - **Speed 600** - caged NRGY beads with propulsion as a good daily trainer;
-- **Hybrid Runner** - full neutral HYBRID midsole with nice grippy outsole.
+- **Hybrid Runner** - full neutral HYBRID midsole with a nice grippy outsole.
 
 ## The Good
 

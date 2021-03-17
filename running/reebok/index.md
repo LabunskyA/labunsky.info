@@ -2,9 +2,9 @@
 
 What if you would take Adidas engineers and let them do whatever they want to? And also make shoes cheaper?
 
-You would get simple, but nice shoes for everyday use. Propulsion plates? Don't need 'em. Branded tire-level outsoles? You are not a car, why bother. Whyle we're at it, forget all the fancy upper materials. We only got one and will never put it in our running shoes anyway. Also, less diversified and smaller shoe range. 8-10mm drop everywhere. The only flat worth $250 and will make you cry because of its durability. But a lot of value on consumer models. 
+You would get simple, but nice shoes for everyday use. Propulsion plates? Don't need 'em. Branded tire-level outsoles? You are not a car, why bother. While we're at it, forget all the fancy upper materials. We only got one and will never put it in our running shoes anyway. Also, less diversified and smaller shoe range. 8-10mm drop everywhere. The only flat worth $250 and will make you cry because of its durability. But a lot of value on consumer models. 
 
-Only Reebok can sell you Pebax midsole for as low as $50 on a clearance. And they will go even lower with their TPU models. That's 2-8 times lower than the competitors. 
+Only Reebok can sell you Pebax midsole for as low as $50 on clearance. And they will go even lower with their TPU models. That's 2-8 times lower than the competitors. 
 
 ## Technology
 
@@ -18,7 +18,7 @@ Only Reebok can sell you Pebax midsole for as low as $50 on a clearance. And the
 
 ## Shoes to consider
 
-- **Floatride Energy** - best everyday shoe you can buy under a $70;
+- **Floatride Energy** - best everyday shoe you can buy for under a $70;
 - **Floatride Run Fast** - the most affordable Pebax midsole in the world;
 - **Speed TR Flexweave** - not a running model officially, but a great flat nevertheless.
 
