@@ -37,4 +37,4 @@ Only Reebok can sell you Pebax midsole for as low as $50 on a clearance. And the
 
 ## Verdict
 
-Good for both everyday running if you do not need anything fancy and Ok with replacing your shoe after the 500th km.
+Good for both everyday running if you do not need anything fancy and fine with replacing your shoe after the 500th km.
