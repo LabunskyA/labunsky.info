@@ -33,6 +33,10 @@ h2 {
     margin-bottom: .415em;
 }
 
+h3 {
+    text-decoration: underline;
+}
+
 #header {
     float: right;
 }
