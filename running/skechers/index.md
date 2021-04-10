@@ -12,7 +12,7 @@ But should you buy them for full price? Some - yes. I've bought 3 pairs of GoRun
 
 ## Technology
 
-### Hyper Burst
+### HyperBurst
 
 Super-critical nitrogen-injected EVA midsole material. Plenty of bounce, little to no compression at the usual mileage. Used as an independent blob (Ride 8), as a cage to Pebax (Speed 6 Hyper), and with a carbon plate (Speed Elite). Stack height varies.
 
@@ -21,7 +21,7 @@ Super-critical nitrogen-injected EVA midsole material. Plenty of bounce, little 
 - Bounce - Fine
 - Support - Minimal
 
-### Ultra Flight
+### UltraFlight
 
 A rebranding of FlightGen - molded EVA midsole debuted in Ride 7. Some sources claim it is actually a TPU, but I had four pairs of shoes with that midsole and cannot support the statement - there is no TPU in it. One of the lightest blends there is, able to compete even with the HyperBurst. Plain and basic ride otherwise, which are not bad. Was the best midsole material a few years ago. Still nice to run in.
 
@@ -30,9 +30,9 @@ A rebranding of FlightGen - molded EVA midsole debuted in Ride 7. Some sources c
 - Bounce - Small
 - Support - None
 
-### Ultra GO
+### UltraGO
 
-Modified older 5Gen midsole. Pure EVA.  Nicely cushioned, gets the job done. Sometimes used as an outsole without marginal addition of rubber or none at all. Used with Mstrike to provide at least some support
+Modified older 5Gen midsole. Pure EVA. Nicely cushioned, gets the job done. Sometimes used as an outsole without marginal addition of rubber or none at all. Used with Mstrike to provide at least some support
 
 - Lifespan - 500km or less
 - Softness - Soft
@@ -51,7 +51,7 @@ An insole you want to see in any of your shoes. No, really, there are o lot of g
 
 ### Skechers Rubber
 
-Regular rubber you may find in their most consumer-oriented shoes. 
+Regular rubber you may find in their most consumer-oriented shoes. One of the worst generic rubber there is. Works fine with a big contact area, but some shoes just do not have enough rubber areas to provide it. Basic in every other way.
 
 - Lifespan - 500km or less
 - Softness - Soft
@@ -69,7 +69,11 @@ Branded tire-level outsoles to compete with Continental rubber in Adidas shoes. 
 
 ### MStrike
 
-Stands for "midfoot strike". At first, supposed to create a better foot strike with rubber between EVA layers acting like a spring, preceding plated shoes by quite a margin. But that is in the past. Today it marks Skechers outsoles with dual-density midsoles. The difference is marginal in most cases, so whatever.
+Stands for "midfoot strike". At first, supposed to create a better foot strike with rubber between EVA layers, preceding plated shoes by quite a margin. Now it is usually implemented through the material with a different density (EVA / TPU / Pebax) close to the foot. Provides no additional support. Not sure if it helps or not, but it is there.
+
+### Plates
+
+Apart from the MStrike in base models, there is a somewhat different version of a carbon plate in Speed Elite. It is placed on the forefoot, and on the forefoot only. Therefore does not provide any stability and support - only bounce. This tactic saves some weight and promotes high-angle forefoot (>11*) strikes. Very light and fast, more suitable for the shorter runs.
 
 ### Everyday upper
 
@@ -81,7 +85,7 @@ Nice upper for everyday use. Not very breathable or light by itself, but not som
 
 ### Race upper
 
-The razor-thin see-through upper is used in racing (Speed) models . Think of the Nike Vaporfly upper. Practically invisible, but looks and feels good. Lock-down is great, but sizing is off. Looks like a sock-less upper, but I would not suggest you try. Very fragile.
+The razor-thin see-through upper is used in racing (Speed) models. Think of the Nike Vaporfly upper. Practically invisible, but looks and feels good. Lock-down is great, but sizing is off. Looks like a sock-less upper, but I would not suggest you try. The form is somewhat off, many find it not very comfortable for the fingers. Very fragile.
 
 - Lifespan - 250km, varies
 - Lock-down - Great
