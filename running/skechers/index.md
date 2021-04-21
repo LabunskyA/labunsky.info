@@ -12,9 +12,7 @@ But should you buy them for full price? Some - yes. I've bought 3 pairs of GOrun
 
 ## Technology
 
-### Midsoles
-
-#### HyperBurst
+### HyperBurst
 
 Super-critical nitrogen-injected EVA midsole material. Plenty of bounce, little to no compression at the usual mileage. Used as an independent blob (Ride 8), caged (Forza 4), or as a cage for Pebax (Speed 6 Hyper), and with a carbon plate (Speed Elite). Stack height varies, mostly low. Different shoes have unique iterations with slightly different stats. 
 
@@ -22,7 +20,7 @@ Super-critical nitrogen-injected EVA midsole material. Plenty of bounce, little 
 | -------------- | -------- | ------ | ------- |
 | 700 km or more | Softer   | Fine   | Minimal |
 
-#### UltraFlight
+### UltraFlight
 
 A re-branding of FlightGen - molded EVA midsole debuted in Ride 7. Some sources claim it is actually a TPU, but I had four pairs of shoes with that midsole and cannot support the statement - there is no TPU in it. One of the lightest blends there is, able to compete even with the HyperBurst. Plain and basic ride otherwise, which are not bad. Was the best midsole material a few years ago. Still nice to run in.
 
@@ -30,17 +28,15 @@ A re-branding of FlightGen - molded EVA midsole debuted in Ride 7. Some sources 
 | -------------- | -------- | ------ | ------- |
 | 600 km or less | Regular  | Small  | None    |
 
-#### UltraGO
+### UltraGO
 
-Modified older 5Gen midsole. Pure EVA. Nicely cushioned, gets the job done. Sometimes used as an outsole without marginal addition of rubber or none at all. Used with MStrike to provide at least some support.
+Modified older 5Gen midsole. Pure EVA. Nicely cushioned, gets the job done. Sometimes used as an outsole without marginal addition of rubber or none at all. Do not expect any traction in such cases.
 
-| Lifespan       | Softness | Bounce         | Support | Traction |
-| -------------- | -------- | -------------- | ------- | -------- |
-| 500 km or less | Softer   | Little to none | None    | Bad      |
+| Lifespan       | Softness | Bounce         | Support |
+| -------------- | -------- | -------------- | ------- |
+| 500 km or less | Softer   | Little to none | None    |
 
-### Insoles
-
-#### Air-Cooled Goga Mat
+### Air-Cooled Goga Mat
 
 An insole you want to see in any of your shoes. No, really, there are o lot of great ones, but Skechers takes the cake with no competition. Your feet will breathe. The only insole I can run comfortably in at 30+C. Sustains its form, but adapts to your foot on the run.
 
@@ -48,15 +44,15 @@ An insole you want to see in any of your shoes. No, really, there are o lot of g
 | ----------- | --------- | ------ | ------- |
 | Forever (?) | Very Soft | None   | None    |
 
-#### Performance
+### Performance
+
+Typical Ortholite insole. Sometimes can be perforated. You should choose them over the basic ones, especially if you live in southern areas.
 
 | Lifespan       | Softness | Bounce | Support |
 | -------------- | -------- | ------ | ------- |
 | 500 km or less | Regular  | None   | None    |
 
-### Outsole
-
-#### Generic Blown Rubber
+### Generic Blown Rubber
 
 Regular rubber you may find in their most consumer-oriented shoes. One of the worst generic rubber there is. Works fine with a big contact area, but some shoes just do not have enough rubber areas to provide it. Basic in every other way.
 
@@ -64,7 +60,7 @@ Regular rubber you may find in their most consumer-oriented shoes. One of the wo
 | -------------- | -------- | -------- | ------- |
 | 500 km or less | Soft     | Regular  | Varies  |
 
-#### Good Year Rubber
+### Good Year Rubber
 
 Branded tire-level outsoles to compete with Continental rubber in Adidas shoes. Can be seen in mostly flat and pieced patterns on road shoes. Good on everything, except dust. Very durable for an asphalt-oriented material.
 
@@ -72,13 +68,11 @@ Branded tire-level outsoles to compete with Continental rubber in Adidas shoes. 
 | -------------- | -------- | --------- | ------- |
 | 500 km or more | Fine     | Excellent | Minimal |
 
-### Other
-
-#### MStrike
+### MStrike
 
 Stands for "mid-foot strike". At first, supposed to create a better foot strike with rubber between EVA layers, preceding plated shoes by quite a margin. Now it is usually implemented through the material with a different density (EVA / TPU / Pebax) close to the foot. Provides no additional support. Not sure if it helps or not, but it is there.
 
-#### Plates
+### Plates
 
 Apart from the MStrike in base models, there is a somewhat different version of a carbon plate in Speed Elite. It is placed on the forefoot, and on the forefoot only. Therefore does not provide any stability and support - only bounce. This tactic saves some weight and promotes high-angle forefoot (>11*) strikes. Very light and fast, more suitable for the shorter runs.
 
