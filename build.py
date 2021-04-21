@@ -24,7 +24,7 @@ file_rules = {
     },
     '.md': {
         'tag': '${CONTENT}', 
-        'preprocess': lambda path: markdown.markdown(read_file(path))
+        'preprocess': lambda path: markdown.markdown(read_file(path), extensions=['tables'])
     }
 }
 
