@@ -38,8 +38,26 @@ h2 {
 }
 
 h3 {
-    font-weight: bold;
     text-decoration: underline;
+}
+
+h3, h4 {
+  font-weight: bold;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: .5em;
+}
+
+th {
+  background-color: lightgrey;
 }
 
 #header {
