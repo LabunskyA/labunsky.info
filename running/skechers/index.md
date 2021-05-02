@@ -10,7 +10,7 @@ Or you can even get current top of the line shoe on clearance. GOmeb Speed 6 wit
 
 But should you buy them for full price? Some - yes. I've bought 3 pairs of GOrun Ride 7, and only the first and the last one had a discount. But the brand shines at the lower price points. 
 
-## Technology
+## Midsoles
 
 ### HyperBurst
 
@@ -36,6 +36,8 @@ Modified older 5Gen midsole. Pure EVA. Nicely cushioned, gets the job done. Some
 | -------------- | -------- | -------------- | ------- |
 | 500 km or less | Softer   | Little to none | None    |
 
+## Insoles
+
 ### Air-Cooled Goga Mat
 
 An insole you want to see in any of your shoes. No, really, there are o lot of great ones, but Skechers takes the cake with no competition. Your feet will breathe. The only insole I can run comfortably in at 30+C. Sustains its form, but adapts to your foot on the run.
@@ -51,6 +53,8 @@ Typical Ortholite insole. Sometimes can be perforated. You should choose them ov
 | Lifespan       | Softness | Bounce | Support |
 | -------------- | -------- | ------ | ------- |
 | 500 km or less | Regular  | None   | None    |
+
+## Outsoles
 
 ### Generic Blown Rubber
 
@@ -68,13 +72,7 @@ Branded tire-level outsoles to compete with Continental rubber in Adidas shoes. 
 | -------------- | -------- | --------- | ------- |
 | 500 km or more | Fine     | Excellent | Minimal |
 
-### MStrike
-
-Stands for "mid-foot strike". At first, supposed to create a better foot strike with rubber between EVA layers, preceding plated shoes by quite a margin. Now it is usually implemented through the material with a different density (EVA / TPU / Pebax) close to the foot. Provides no additional support. Not sure if it helps or not, but it is there.
-
-### Plates
-
-Apart from the MStrike in base models, there is a somewhat different version of a carbon plate in Speed Elite. It is placed on the forefoot, and on the forefoot only. Therefore does not provide any stability and support - only bounce. This tactic saves some weight and promotes high-angle forefoot (>11*) strikes. Very light and fast, more suitable for the shorter runs.
+## Uppers
 
 ### Everyday upper
 
@@ -91,6 +89,16 @@ The razor-thin see-through upper is used in racing (Speed) models. Think of the 
 | Lifespan          | Lock-down | Form |
 | ----------------- | --------- | ---- |
 | +- 250 km, varies | Great     | Off  |
+
+## Other
+
+### MStrike
+
+Stands for "mid-foot strike". At first, supposed to create a better foot strike with rubber between EVA layers, preceding plated shoes by quite a margin. Now it is usually implemented through the material with a different density (EVA / TPU / Pebax) close to the foot. Provides no additional support. Not sure if it helps or not, but it is there.
+
+### Plates
+
+Apart from the MStrike in base models, there is a somewhat different version of a carbon plate in Speed Elite. It is placed on the forefoot, and on the forefoot only. Therefore does not provide any stability and support - only bounce. This tactic saves some weight and promotes high-angle forefoot (>11*) strikes. Very light and fast, more suitable for the shorter runs.
 
 ## Shoes to consider
 
@@ -127,7 +135,7 @@ Hyper Burst with cached Pebax blob. Light-thin upper for maximum breathability a
 ## The Bad
 
 - Cheap;
-- Upper may be janky;
+- Upper might be janky;
 - The shoes are not equally available in the world.
 
 ## Verdict

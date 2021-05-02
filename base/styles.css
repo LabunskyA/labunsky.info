@@ -23,6 +23,7 @@ ul li {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: initial;
+    width: fit-content;
 }
 
 h1 {
@@ -35,14 +36,15 @@ h2 {
     padding-bottom: calc(.415em - 1px);
     border-bottom: 1px dashed;
     margin-bottom: .415em;
+
+    margin-block-start: 1.25em;
 }
 
 h3 {
     text-decoration: underline;
-}
+    font-weight: bold;
 
-h3, h4 {
-  font-weight: bold;
+    margin-block-start: 1.5em;
 }
 
 table {
@@ -50,6 +52,9 @@ table {
     text-align: left;
     table-layout: fixed;
     border-collapse: collapse;
+    
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 td, th {
