@@ -10,7 +10,7 @@ Or you can even get current top of the line shoe on clearance. GOmeb Speed 6 wit
 
 But should you buy them for full price? Some - yes. I've bought 3 pairs of GOrun Ride 7, and only the first and the last one had a discount. But the brand shines at the lower price points. 
 
-## Midsoles
+## Technology
 
 ### HyperBurst
 
@@ -36,8 +36,6 @@ Modified older 5Gen midsole. Pure EVA. Nicely cushioned, gets the job done. Some
 | -------------- | -------- | -------------- | ------- |
 | 500 km or less | Softer   | Little to none | None    |
 
-## Insoles
-
 ### Air-Cooled Goga Mat
 
 An insole you want to see in any of your shoes. No, really, there are o lot of great ones, but Skechers takes the cake with no competition. Your feet will breathe. The only insole I can run comfortably in at 30+C. Sustains its form, but adapts to your foot on the run.
@@ -46,7 +44,7 @@ An insole you want to see in any of your shoes. No, really, there are o lot of g
 | ----------- | --------- | ------ | ------- |
 | Forever (?) | Very Soft | None   | None    |
 
-### Performance
+### Performance insole
 
 Typical Ortholite insole. Sometimes can be perforated. You should choose them over the basic ones, especially if you live in southern areas.
 
@@ -54,9 +52,7 @@ Typical Ortholite insole. Sometimes can be perforated. You should choose them ov
 | -------------- | -------- | ------ | ------- |
 | 500 km or less | Regular  | None   | None    |
 
-## Outsoles
-
-### Generic Blown Rubber
+### Blown Rubber Outsole
 
 Regular rubber you may find in their most consumer-oriented shoes. One of the worst generic rubber there is. Works fine with a big contact area, but some shoes just do not have enough rubber areas to provide it. Basic in every other way.
 
@@ -64,15 +60,13 @@ Regular rubber you may find in their most consumer-oriented shoes. One of the wo
 | -------------- | -------- | -------- | ------- |
 | 500 km or less | Soft     | Regular  | Varies  |
 
-### Good Year Rubber
+### Good Year Outsole
 
 Branded tire-level outsoles to compete with Continental rubber in Adidas shoes. Can be seen in mostly flat and pieced patterns on road shoes. Good on everything, except dust. Very durable for an asphalt-oriented material.
 
 | Lifespan       | Softness | Traction  | Support |
 | -------------- | -------- | --------- | ------- |
 | 500 km or more | Fine     | Excellent | Minimal |
-
-## Uppers
 
 ### Everyday upper
 
@@ -89,8 +83,6 @@ The razor-thin see-through upper is used in racing (Speed) models. Think of the 
 | Lifespan          | Lock-down | Form |
 | ----------------- | --------- | ---- |
 | +- 250 km, varies | Great     | Off  |
-
-## Other
 
 ### MStrike
 
