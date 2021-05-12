@@ -50,7 +50,7 @@ Sure, you should not explicitly search for existing pieces of data on a hard dri
 
 tl;dr — trying to tell about strange data storage optimization technique using JPEG-files and F5 steganography algorithm.
 
-**More:**  [medium/en](https://medium.com/@labunskya/about-a-strange-data-compression-method-4d0d9d2e5714), [habr/ru](https://habr.com/ru/post/453332/)
+**More:** [medium/en](https://medium.com/@labunskya/about-a-strange-data-compression-method-4d0d9d2e5714), [habr/ru](https://habr.com/ru/post/453332/)
 
 ## f5ar
 

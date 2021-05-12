@@ -21,36 +21,25 @@ ul li {
     margin: .25rem 0
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: initial;
-    width: fit-content;
-}
-
-h1 {
-    padding-bottom: calc(.335em - 1px);
-    border-bottom: 1px solid;
-    margin-bottom: .335em;
-}
-
-h2 {
-    padding-bottom: calc(.415em - 1px);
-    border-bottom: 1px dashed;
-    margin-bottom: .415em;
-
-    margin-block-start: 1.25em;
-}
-
-h3 {
-    text-decoration: underline;
-    font-weight: bold;
-
+h2, h3 {
     margin-block-start: 1.5em;
+}
+
+h1::before {
+    content: "# ";
+}
+
+h2::before {
+    content: "## ";
+}
+
+h3::before {
+    content: "### ";
 }
 
 table {
     width: 100%;
     text-align: left;
-    table-layout: fixed;
     border-collapse: collapse;
     
     margin-block-start: 1em;
@@ -59,10 +48,7 @@ table {
 
 td, th {
     padding: .5em;
-}
-
-th {
-  background-color: ghostwhite;
+    border: 1px dashed;
 }
 
 #header {
