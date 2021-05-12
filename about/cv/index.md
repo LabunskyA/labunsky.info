@@ -1,4 +1,5 @@
 **Labunsky Artem** <me@labunsky.info>
+
 - **Education**: Information Security Specialist (diploma after 5.5 years, [ISCED level 7](http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf)), Saratov State University, Russia
 - **Fields of research**
   - steganography methods and applications (and very unusual ones)
@@ -6,7 +7,7 @@
   - extensive data protection techniques
   - decentralized networks and protocols
 - **Programming-related skills**
-  - right away will code in C, C++, Java, JavaScript, Python (knew more but ain't sure in skill due to an infrequent usage)
+  - right away can code in C, C++, Java, JavaScript, LabView
   - have a good understanding of the most language-specific tech so can learn new ones in a short time
   - able to use existing and create custom effective algorithms and data structures
   - knowledge of computer architecture base principles and mechanisms
@@ -18,13 +19,14 @@
     - [Boehm](https://www.hboehm.info/gc/) and other GCs
     - different sql (microsoft, mysql) and nosql ([whitedb](http://whitedb.org), [redis](https://redis.io)) databases
     - multi-threading in different models and concurrency in general
+    - clouds (aws, azure, google cloud, ibm cloud)
     - crypto-currencies (smart contracts in particular)
     - UI stuff like html and css, Java Swing and Android layouts
     - many other things I just did not remember at the time
-  - not really a programming skill, but I used to create trading strategies
+  - not really a programming skill, but used to create trading strategies
 - **Finance skills**
-  - Trading commodities derivatives
-  - Hedging strategies (from cryptocurrency mining and smart contracts revenue)
+  - Commodities derivatives
+  - Hedging strategies (cryptocurrency mining / smart contracts revenue)
   - Arbitrage
   - Mid- and short-term trading strategies
 - **Other qualities**
