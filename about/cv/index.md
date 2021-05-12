@@ -1,38 +1,39 @@
 **Labunsky Artem** <me@labunsky.info>
 
-- **Education**: Information Security Specialist (diploma after 5.5 years, [ISCED level 7](http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf)), Saratov State University, Russia
+- **Education** 
+    - Information Security Specialist (diploma after 5.5 years, [ISCED level 7](http://uis.unesco.org/sites/default/files/documents/international-standard-classification-of-education-isced-2011-en.pdf)), Saratov State University, Russia
 - **Fields of research**
-  - steganography methods and applications (and very unusual ones)
-  - covert channels
-  - extensive data protection techniques
-  - decentralized networks and protocols
-- **Programming-related skills**
-  - right away can code in C, C++, Java, JavaScript, LabView
-  - have a good understanding of the most language-specific tech so can learn new ones in a short time
-  - able to use existing and create custom effective algorithms and data structures
-  - knowledge of computer architecture base principles and mechanisms
-  - can use statistical methods in a research
-  - **I worked with**
-    - frameworks like [libwebsockets](https://github.com/warmcat/libwebsockets)
-    - [Node.js](https://nodejs.org/), [Ducktape](https://duktape.org) and [PhantomJS](http://phantomjs.org) (incomparable things, but all JS-related)
-    - [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) and [N-API](https://nodejs.org/api/n-api.html)
-    - [Boehm](https://www.hboehm.info/gc/) and other GCs
-    - different sql (microsoft, mysql) and nosql ([whitedb](http://whitedb.org), [redis](https://redis.io)) databases
-    - multi-threading in different models and concurrency in general
-    - clouds (aws, azure, google cloud, ibm cloud)
-    - crypto-currencies (smart contracts in particular)
-    - UI stuff like html and css, Java Swing and Android layouts
-    - many other things I just did not remember at the time
-  - not really a programming skill, but used to create trading strategies
+    - steganography methods and applications (inc. very unusual ones)
+    - covert channels
+    - extensive data protection techniques
+    - decentralized networks and protocols
+- **Code-related skills**
+    - right away can code in C, C++, Java, JavaScript, LabView
+    - have a good understanding of the most language-specific tech so can learn new ones in a short time
+    - able to use existing and create custom effective algorithms and data structures
+    - knowledge of computer architecture base principles and mechanisms
+    - can use statistical methods in a research
+    - **I worked with**
+        - frameworks like [libwebsockets](https://github.com/warmcat/libwebsockets)
+        - [Node.js](https://nodejs.org/), [Ducktape](https://duktape.org) and [PhantomJS](http://phantomjs.org) (incomparable things, but all JS-related)
+        - [JNI](https://en.wikipedia.org/wiki/Java_Native_Interface) and [N-API](https://nodejs.org/api/n-api.html)
+        - [Boehm](https://www.hboehm.info/gc/) and other GCs
+        - different sql (microsoft, mysql) and nosql ([whitedb](http://whitedb.org), [redis](https://redis.io)) databases
+        - multi-threading in different models and concurrency in general
+        - clouds (aws, azure, google cloud, ibm cloud)
+        - crypto-currencies (smart contracts in particular)
+        - UI stuff like html and css, Java Swing and Android layouts
+        - many other things I just did not remember at the time
+    - not really a programming skill, but used to create trading strategies
 - **Finance skills**
-  - Commodities derivatives
-  - Hedging strategies (cryptocurrency mining / smart contracts revenue)
-  - Arbitrage
-  - Mid- and short-term trading strategies
+    - Commodities derivatives
+    - Hedging strategies (cryptocurrency mining / smart contracts revenue)
+    - Arbitrage
+    - Mid- and short-term trading strategies
 - **Other qualities**
-  - stress resistant
-  - honest and straightforward
-  - prefer a good life over the money
-  - enjoy solving and optimizing interesting problems, even simple ones
-  - have a pretty good understanding of modern markets and economy in general
-  - in good physical shape (**really** love athletics)
+    - stress resistant
+    - honest and straightforward
+    - prefer a good life over the money
+    - enjoy solving and optimizing interesting problems, even simple ones
+    - have a pretty good understanding of modern markets and economy in general
+    - in good physical shape (**really** love athletics)
