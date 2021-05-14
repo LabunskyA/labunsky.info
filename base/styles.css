@@ -40,6 +40,10 @@ h3::before {
 table {
     text-align: left;
     border-collapse: collapse;
+
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
     
     margin-block-start: 1em;
     margin-block-end: 1em;
