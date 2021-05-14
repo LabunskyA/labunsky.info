@@ -1,14 +1,14 @@
 # Skechers
 
-Rebels, not like the others. Slim, cool, comfortable, and cheap. Also my favorite running shoe brand.
+Rebels, not like the others. Slim, cool, comfortable, and cheap. They are also my favorite running shoe brand.
 
-4-6 mm drop, low to high stack, any type of the upper you may wish for. The brand started as a somewhat copycat and developed a huge variety, but with a twist.
+4-6 mm drop, low to high stack, any type of the upper you may wish for. The brand started as a somewhat copycat but with a twist.
 
 To clarify, most of my actual running shoes were made by them. Most of the early-day ones, at least. And you know, why? They are pretty much always the best option within a low budget. Hands down, not even a competition. For $50-100, you would be able to get what, Nike Downshifter? Some low-tier Adidas shoe made from a slab of generic EVA and a shitty upper? With Skechers, you would be able to get something like Go Run Pure or Pulse with decent midsole, a nice sock liner, and a really nice upper. With a tech from a previous generation, sure. But it was top of the line someday. 
 
 Or you can even get current top of the line shoe on clearance. GOmeb Speed 6 with HyperBurst was that much for the whole autumn of 2020 on Running Warehouse. They like good deals. You're not going to see them 24/7 like with Puma's old models, but the deals are off the charts.
 
-But should you buy them for full price? Some - yes. I've bought 3 pairs of GOrun Ride 7, and only the first and the last one had a discount. But the brand shines at the lower price points. 
+But should you buy them for a full price? Some - yes. I've bought 3 pairs of GOrun Ride 7, and only the first and the last one had a discount. But the brand shines at the lower price points. 
 
 ## Technology
 
@@ -22,7 +22,7 @@ Super-critical nitrogen-injected EVA midsole material. Plenty of bounce, little 
 
 ### UltraFlight
 
-A re-branding of FlightGen - molded EVA midsole debuted in Ride 7. Some sources claim it is actually a TPU, but I had four pairs of shoes with that midsole and cannot support the statement - there is no TPU in it. One of the lightest blends there is, able to compete even with the HyperBurst. Plain and basic ride otherwise, which are not bad. Was the best midsole material a few years ago. Still nice to run in.
+A re-branding of FlightGen - molded EVA midsole debuted in Ride 7. Some sources claim it is actually a TPU, but I had four pairs of shoes with that midsole and cannot support the statement - there is no TPU in it. One of the lightest blends there is, able to compete even with the HyperBurst. Plain and basic ride otherwise, which are not bad. Has been the best midsole a few years (2017 or so) ago. Still very nice to run in.
 
 | Type | Lifespan       | Softness | Bounce | Support |
 | ---- | -------------- | -------- | ------ | ------- |
@@ -38,7 +38,7 @@ Modified older 5Gen midsole. Pure EVA. Nicely cushioned, gets the job done. Some
 
 ### Air-Cooled Goga Mat
 
-An insole you want to see in any of your shoes. No, really, there are o lot of great ones, but Skechers takes the cake with no competition. Your feet will breathe. The only insole I can run comfortably in at 30+C. Sustains its form, but adapts to your foot on the run.
+An insole you want to see in any of your shoes. No, really, there are o lot of great ones, but Skechers takes the cake with no competition. Your feet will breathe. The only insole I can run comfortably in at 30+C. Sustains form but adapts to your foot on the run.
 
 | Lifespan    | Softness  | Bounce | Support |
 | ----------- | --------- | ------ | ------- |
@@ -54,7 +54,7 @@ Typical Ortholite insole. Sometimes can be perforated. You should choose them ov
 
 ### Blown Rubber Outsole
 
-Regular rubber you may find in their most consumer-oriented shoes. One of the worst generic rubber there is. Works fine with a big contact area, but some shoes just do not have enough rubber areas to provide it. Basic in every other way.
+Regular rubber you may find in their most consumer-oriented shoes. One of the worst generic rubber there is. Works fine with a big contact area, but some shoes just do not have enough rubber areas to provide it. Pretty basic in every other way.
 
 | Lifespan       | Softness | Traction | Support |
 | -------------- | -------- | -------- | ------- |
@@ -62,7 +62,7 @@ Regular rubber you may find in their most consumer-oriented shoes. One of the wo
 
 ### Good Year Outsole
 
-Branded tire-level outsoles to compete with Continental rubber in Adidas shoes. Can be seen in mostly flat and pieced patterns on road shoes. Good on everything, except dust. Very durable for an asphalt-oriented material.
+Branded tire-level outsoles to compete with Continental rubber in Adidas shoes. It could be seen in primarily flat and pieced patterns on road shoes. Good on everything, except dust. Very durable for an asphalt-oriented material.
 
 | Lifespan       | Softness | Traction  | Support |
 | -------------- | -------- | --------- | ------- |
@@ -70,7 +70,7 @@ Branded tire-level outsoles to compete with Continental rubber in Adidas shoes. 
 
 ### Everyday upper
 
-Nice upper for everyday use. Not very breathable or light by itself, but not something that would give you any discomfort. On a contrary, typically very comfortable. Sizing and lock-down just right for any shoe with it.
+A very nice upper for everyday use. Not very breathable or light by itself, but not something that would give you any discomfort. On the contrary, typically very comfortable. Sizing and lock-down just right for any shoe with it.
 
 | Lifespan       | Lock-down | form  |
 | -------------- | --------- | ----- |
@@ -86,11 +86,11 @@ The razor-thin see-through upper is used in racing (Speed) models. Think of the 
 
 ### MStrike
 
-Stands for "mid-foot strike". At first, supposed to create a better foot strike with rubber between EVA layers, preceding plated shoes by quite a margin. Now it is usually implemented through the material with a different density (EVA / TPU / Pebax) close to the foot. Provides no additional support. Not sure if it helps or not, but it is there.
+Stands for 'mid-foot strike'. At first, supposed to create a better foot strike with rubber between EVA layers, preceding plated shoes by quite a margin. Today it is usually implemented through the material with a different density (EVA / TPU / Pebax) close to the foot. Provides no additional support. Not sure if it helps or not, but it is there.
 
 ### Plates
 
-Apart from the MStrike in base models, there is a somewhat different version of a carbon plate in Speed Elite. It is placed on the forefoot, and on the forefoot only. Therefore does not provide any stability and support - only bounce. This tactic saves some weight and promotes high-angle forefoot (>11*) strikes. Very light and fast, more suitable for the shorter runs.
+Apart from the MStrike in base models, there is a somewhat different version of a carbon plate in Speed Elite. It is placed on and only on the forefoot. Therefore does not provide any stability and support - only bounce. This tactic saves some weight and promotes high-angle forefoot (>11*) strikes. Very light and fast, more suitable for the shorter runs.
 
 ## Shoes to consider
 
@@ -104,7 +104,7 @@ The best overall. A bit heavy, but light enough. Sturdy upper, best midsole/outs
 
 ### GOrun Forza
 
-A versatile shoe as a compromise between Ride and Speed series. Combines UltraFlight (heel) with HyperBurst (forefoot) in the midsole for a better stride. Great full-rubber Good Year outsole. More aggressive, but also stable stride. Regular upper on an overall race platform.
+A versatile shoe to be used as a compromise between Ride and Speed series. Combines UltraFlight (heel) with HyperBurst (forefoot) in the midsole for a better stride. Great full-rubber Good Year outsole. More aggressive, but also stable stride. Regular upper on an overall race platform.
 
 | Drop | Type           | Speed        | Lifespan |
 | ---- | -------------- | ------------ | -------- |
@@ -132,8 +132,8 @@ Hyper Burst with cached Pebax blob. Light-thin upper for maximum breathability a
 
 ## Verdict
 
-The best choice for beginners and amateur runners. But the pros would not be disappointed either.
+The best choice for beginners. But the pros would not be disappointed either.
 
-| Good for | Typical lifespan                                             |
-| -------- | ------------------------------------------------------------ |
-| Everyone | 300-500 km (mostly due to the upper or the outsole failures) |
+| Good for | Typical lifespan                                      |
+| -------- | ----------------------------------------------------- |
+| Everyone | 300-500 km (due to the upper or the outsole failures) |

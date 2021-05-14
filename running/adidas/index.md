@@ -14,9 +14,9 @@ Frequent clearances provide a pretty good price/quality ratio for most shoes. Ju
 
 A bit overhyped 'energy-returning' midsole. Fine for basic training and casual walking. Very soft and mushy. Despite all the claims, it returns less energy to a runner than many traditional shoes are. That's because all the return is directed upwards to your foot, not alongside the stride. That's why they are not really suitable for running. Easy miles and relaxed jogging - maybe.
 
-| Type | Lifespan       | Softness | Bounce | Support |
-| ---- | -------------- | -------- | ------ | ------- |
-| TPU  | Forever (?)    | Soft     | Fine   | Minimal |
+| Type        | Lifespan       | Softness | Bounce | Support |
+| ----------- | -------------- | -------- | ------ | ------- |
+| TPU pellets | Forever (?)    | Soft     | Fine   | Minimal |
 
 ### LightStrike
 
@@ -30,21 +30,23 @@ A lighter EVA midsole. Basic, plain, and simple. Provides zero to no support why
 
 A refreshed version of boost. Firmer, more suitable for actual running. Same TPU pellets, but a little bit smaller, getting it a bit of a punch. Not as punchy as Reebok FloatRide Forever Energy, it stands in between. Otherwise, there is nothing special about this midsole.
 
-| Type | Lifespan       | Softness | Bounce | Support |
-| ---- | -------------- | -------- | ------ | ------- |
-| TPU  | Forever (?)    | Softer   | Fine   | Minimal |
+| Type         | Lifespan       | Softness | Bounce | Support |
+| ------------ | -------------- | -------- | ------ | ------- |
+| TPU pellets  | Forever (?)    | Softer   | Fine   | Normal  |
 
 ### AlphaBounce
 
-Soft foam (TPU?) caged in firm EVA (think Reebok FlashFilm). Sounds good, but the execution is off. It is not suitable for any serious running. Walking in the park? Sure! Occasionally running 6:00+/km? Maybe. Nothing more. Too firm and lack bounce (which is odd, considering the name). All the cushion is in the heel, and the forefoot strike is a burden in them. 
+Soft foam (TPU?) caged in firm EVA (think Reebok FlashFilm). Sounds good, but the execution is off for running. It is not suitable for any serious workouts. Walking in the park? Sure! Occasionally running 6:00+/km? Maybe. Nothing more. Too firm and lack bounce (which is odd, considering the name). All the cushion is in the heel, and the forefoot strike is a burden in them.
+
+All of that has a good explanation tho. This midsole was designed for tennis. Yeah. And it did a great job with nice bounce and stable That's why you should not expect any performance from the shoes with it.
 
 | Type           | Lifespan       | Softness | Bounce | Support |
 | -------------- | -------------- | -------- | ------ | ------- |
-| EVA-caged TPU  | Forever (?)    | Softer   | Fine   | Minimal |
+| EVA-caged TPU  | Forever (?)    | Firmer   | Fine   | Fine    |
 
 ### Adidas 4D
 
-3D printed premium midsole with a curve to it. Not yet tested it for running due to shoe price.
+3D printed premium midsole with a curve to it. Not yet tested it for running due to shoe price. Casual usage feels like a regular high-stack EVA shoes with a bit more of a punch and support.
 
 | Type       | Lifespan  | Softness | Bounce | Support |
 | -----------| ----------| -------- | ------ | ------- |
@@ -56,11 +58,11 @@ A fork-shaped plastic propulsion plate to give an additional snap and stability.
 
 ### LEP - Little Extra Push
 
-Smaller propulsion mechanism with a little bit of a snap;
+Smaller propulsion mechanism with a little bit of a snap.
 
 ### Continental
 
-Tire-branded rubber on the outsoles with great grip on any asphalt-like surface;
+Tire-branded rubber on the outsoles with a great grip on any asphalt-like surface;
 
 | Lifespan       | Softness | Traction  | Support |
 | -------------- | -------- | --------- | ------- |

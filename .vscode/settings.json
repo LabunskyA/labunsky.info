@@ -20,6 +20,26 @@
                     "describe"
                 ]
             }
+        },
+        {
+            "files": [
+                "**/running/skechers/index.md"
+            ],
+            "config": {
+                "audience": "general",
+                "dialect": "american",
+                "domain": "casual",
+                "emotions": [
+                    "neutral",
+                    "joyful",
+                    "optimistic",
+                    "friendly"
+                ],
+                "goals": [
+                    "inform",
+                    "describe"
+                ]
+            }
         }
     ]
 }
