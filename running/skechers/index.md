@@ -16,17 +16,17 @@ But should you buy them for full price? Some - yes. I've bought 3 pairs of GOrun
 
 Super-critical nitrogen-injected EVA midsole material. Plenty of bounce, little to no compression at the usual mileage. Used as an independent blob (Ride 8), caged (Forza 4), or as a cage for Pebax (Speed 6 Hyper), and with a carbon plate (Speed Elite). Stack height varies, mostly low. Different shoes have unique iterations with slightly different stats. 
 
-| Lifespan       | Softness | Bounce | Support |
-| -------------- | -------- | ------ | ------- |
-| 700 km or more | Softer   | Fine   | Minimal |
+| Type                  | Lifespan       | Softness | Bounce | Support |
+| --------------------- | -------------- | -------- | ------ | ------- |
+| EVA (super-critical)  | 700 km or more | Softer   | Fine   | Minimal |
 
 ### UltraFlight
 
 A re-branding of FlightGen - molded EVA midsole debuted in Ride 7. Some sources claim it is actually a TPU, but I had four pairs of shoes with that midsole and cannot support the statement - there is no TPU in it. One of the lightest blends there is, able to compete even with the HyperBurst. Plain and basic ride otherwise, which are not bad. Was the best midsole material a few years ago. Still nice to run in.
 
-| Lifespan       | Softness | Bounce | Support |
-| -------------- | -------- | ------ | ------- |
-| 600 km or less | Regular  | Small  | None    |
+| Type | Lifespan       | Softness | Bounce | Support |
+| ---- | -------------- | -------- | ------ | ------- |
+| EVA  | 600 km or less | Regular  | Small  | None    |
 
 ### UltraGO
 

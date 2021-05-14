@@ -1,6 +1,6 @@
 # Things I've made
 
-Here is a somewhat complete list of things I made in my spare time. If you are interested in any of it you can contact me via any method from the front page you like. You can also freely copy and distribute anything under BSD 3-clause (do whatever) license. Though I would be glad to be linked, just in case.
+Here is a somewhat complete list of things I made in my spare time. If you are interested in any of it you can contact me via any method from the front page you like. You can also freely copy and distribute anything under BSD 3-clause (do whatever) license. Though I would be glad to be linked.
 
 ## A covert channel over (not only) the Telegram
 
@@ -8,7 +8,7 @@ We used to think of Telegram as a reliable and secure transmission medium for me
 
 tl;dr - inventing a private covert channel through users blacklisting each other.
 
-**More:** [medium/en](https://medium.com/@labunskya/secret-telegrams-bdd2035b6e84) [habr/ru](https://habr.com/ru/post/451954)
+**More:** [medium/en](https://medium.com/@labunskya/secret-telegrams-bdd2035b6e84), [habr/ru](https://habr.com/ru/post/451954)
 
 [GitHub](https://github.com/LabunskyA/covertele)
 
