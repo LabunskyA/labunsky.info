@@ -75,7 +75,7 @@ for root, dirs, files in os.walk("./"):
             page = page.replace('${' + tag + '}', '');
             
         with open(os.path.join(root, filename.replace('.conf', '.html')), "w", encoding="utf8") as dest:
-            dest.write(page)
+            dest.write(htmlmin.minify(page))
         
         # Add a link to the sitemap
         if address is not None:
