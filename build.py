@@ -3,7 +3,7 @@ import sys, os, re, time, markdown, htmlmin
 
 
 def read_file(path):
-    with open(path, 'r') as file:
+    with open(path, 'r', encoding="utf8") as file:
         return file.read()
 
 def process_css(path):
@@ -43,8 +43,7 @@ if len(sys.argv) > 1:
 if address is not None:
     print('Processing', address)
 
-with open(os.path.join('./', 'base', 'template.html')) as template_src:
-    template = template_src.read()
+template = read_file(os.path.join('./', 'base', 'template.html'))
 
 for root, dirs, files in os.walk("./"):
     for filename in files:
@@ -52,15 +51,14 @@ for root, dirs, files in os.walk("./"):
         if '.conf' not in filename:
             continue
         print('found', os.path.normpath(os.path.join(root, filename)))
-
+        
         # Initialize and read the config file
         config = {}
-        with open(os.path.join(root, filename), 'r') as src:
-            for line in src.read().splitlines():
-                if '=' not in line:
-                    continue
-                tokens = line.split('=')
-                config[tokens[0]] = tokens[1]
+        for line in read_file(os.path.join(root, filename)).splitlines():
+            if '=' not in line:
+                continue
+            tokens = line.split('=')
+            config[tokens[0]] = tokens[1]
 
         # Create a page from the template
         page = template
@@ -76,7 +74,7 @@ for root, dirs, files in os.walk("./"):
         for tag in re.findall('\$\{(.*?)\}', page):
             page = page.replace('${' + tag + '}', '');
             
-        with open(os.path.join(root, filename.replace('.conf', '.html')), "w") as dest:
+        with open(os.path.join(root, filename.replace('.conf', '.html')), "w", encoding="utf8") as dest:
             dest.write(page)
         
         # Add a link to the sitemap
@@ -87,7 +85,7 @@ for root, dirs, files in os.walk("./"):
                 link = link[:len(link)-2]
             sitemap.append(link)
 
-with open(os.path.join('.', 'sitemap.txt'), 'w') as sitemap_file:
+with open(os.path.join('.', 'sitemap.txt'), 'w', encoding="utf8") as sitemap_file:
     sitemap_file.writelines(addr + '\n' for addr in sitemap)
 
 print('Done')
